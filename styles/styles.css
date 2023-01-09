@@ -47,9 +47,12 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-around; */
     background-color: #3377AA;
     border-radius: 10px;
-    /* height: 100px; */
-    /* padding: -10px 0 -10px 0; */
+    margin-bottom: 20px;
+}
+
+#lastUpdated{
+    color: #E8E25B;
+    margin-top: -10px;
 }
