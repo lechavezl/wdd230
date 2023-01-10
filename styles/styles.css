@@ -9,21 +9,18 @@ header {
     align-items: center;
     justify-content: space-around;
     height: 180px;
-    padding: 0 -20px 0 -20px;
     border-radius: 10px;
     margin-top: 20px;
     box-shadow: 0 0 30px 5px rgb(177, 177, 177);
 }
 
 img {
-    padding: 0 -20px 0 -20px;
     box-shadow: 0 0 10px 0 rgb(49, 49, 49);
 }
 
 h1 {
     font-size: 40px;
     color: white;
-    padding: 0 -20px 0 -20px;
     font-family: Helvetica, Arial, sans-serif;
     text-shadow: 1px 0 15px #333333;
 }
@@ -54,6 +51,6 @@ footer {
 }
 
 #lastUpdated{
-    color: #E8E25B;
+    color: yellow;
     margin-top: -10px;
 }
