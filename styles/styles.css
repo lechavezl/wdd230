@@ -39,7 +39,7 @@ li {
 
 p {
     font-family: Cambria, Arial, serif;
-    font-size: 17px;
+    /* font-size: 17px; */
 }
 
 footer {
@@ -49,6 +49,10 @@ footer {
     background-color: #3377AA;
     border-radius: 10px;
     margin-bottom: 20px;
+}
+
+footer > p {
+    text-shadow: 1px 0 10px rgb(214, 214, 214);
 }
 
 #lastUpdated{
