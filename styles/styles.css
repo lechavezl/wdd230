@@ -21,25 +21,24 @@ img {
 h1 {
     font-size: 40px;
     color: white;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-shadow: 1px 0 15px #333333;
 }
 
 h2 {
     font-size: 28px;
-    font-family: monospace, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: rgb(0, 0, 0);
     text-shadow: 1px 0 10px gray;
 }
 
 li {
-    font-family: monospace, Arial, sans-serif;
-    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
 }
 
 p {
-    font-family: Cambria, Arial, serif;
-    /* font-size: 17px; */
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
 }
 
 footer {
