@@ -4,11 +4,11 @@ body {
 }
 
 header {
-    display: flex;
+    display: block;
+    /* flex-wrap: wrap; */
     background-color: #3377AA;
-    align-items: center;
+    text-align: center;
     justify-content: space-around;
-    height: 180px;
     border-radius: 10px;
     margin-top: 20px;
     box-shadow: 0 0 30px 5px rgb(177, 177, 177);
@@ -19,17 +19,21 @@ img {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 25px;
     color: white;
     font-family: 'Montserrat', sans-serif;
     text-shadow: 1px 0 15px #333333;
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 21px;
     font-family: 'Montserrat', sans-serif;
     color: rgb(0, 0, 0);
     text-shadow: 1px 0 10px gray;
+}
+
+main > h2 {
+    text-align: center;
 }
 
 li {
@@ -38,7 +42,8 @@ li {
 
 p {
     font-family: 'Roboto Slab', serif;
-    font-size: 15px;
+    font-size: 10px;
+    text-align: center;
 }
 
 footer {
