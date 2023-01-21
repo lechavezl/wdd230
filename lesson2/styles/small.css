@@ -1,14 +1,17 @@
-main {
+body {
     max-width: 767px;
     margin: 0 auto;
+}
+
+main {
     display: grid;
     grid-template-columns: 1fr;
     column-gap: 35px;
 }
 
 header {
-    /* margin-top: -21px; */
     text-align: center;
+    align-items: center;
     background-color: #0A2032;
     color: white;
 }
@@ -41,7 +44,6 @@ section {
 }
 
 img {
-    /* width: 100%; */
     width: 100%;
     background-color: #EEEEEE;
     margin-top: 15px;
@@ -72,4 +74,8 @@ footer {
     background-color: #0A2032;
     text-align: center;
     color: white;
+}
+
+footer p {
+    padding: 10px;
 }
