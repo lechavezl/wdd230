@@ -1,7 +1,14 @@
-body {
+body, main {
     max-width: 767px;
     margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
 }
+
+/* body {
+    max-width: 767px;
+    margin: 0 auto;
+} */
 
 main {
     display: grid;
