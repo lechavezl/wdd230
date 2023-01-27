@@ -5,15 +5,14 @@ body {
 }
 
 nav {
-    /* background-color: #1FC1C3; */
     text-align: center;
-    border-bottom: 1px solid #1FC1C3 ;
+    border-bottom: 1px solid #1FC1C3;
 }
 
 nav ul {
     display: flex;
-    flex-direction: row;
-    /* width: 600px; */
+    flex-direction: column;
+    margin: 0 auto;
 }
 
 nav li {
@@ -21,7 +20,7 @@ nav li {
     padding-top: 5px;
     padding-bottom: 5px;
     list-style: none;
-    /* height: 40px; */
+    padding: 15px;
 }
 
 nav a {
@@ -32,7 +31,7 @@ nav a {
     color: #d4d4d4;
     padding: 10px;
 }
-
+/* 
 nav li:nth-child(1) {
     border-right: 1px solid #1FC1C3;
     border-left: 1px solid #1FC1C3;
@@ -41,11 +40,11 @@ nav li:nth-child(1) {
 nav li:nth-child(2) {
     border-right: 1px solid #1FC1C3;
     /* border-left: 1px solid #1FC1C3; */
-}
+/* } */
 
-nav li:nth-child(3) {
+/* nav li:nth-child(3) {
     border-right: 1px solid #1FC1C3;
-}
+} */
 
 nav a:hover {
     background-color: #1FC1C3;
@@ -61,6 +60,11 @@ main {
     display: flex;
     flex-direction: column;
     text-align: left;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Libre Baskerville', serif;
 }
 
 h2 {
@@ -74,6 +78,7 @@ p {
     font-size: 19px;
     text-align: left;
     color: #d4d4d4;
+    font-family: 'Roboto', sans-serif;
 }
 
 div p {
@@ -87,6 +92,96 @@ div img {
     border-radius: 10px;
 }
 
+
+/*Target Audience page CSS*/
+
 hr {
     width: 100%;
+}
+
+.personas-heading {
+    margin-top: 30px;
+}
+
+h3 {
+    color: #d4d4d4;
+    font-size: 22px;
+    margin-top: -5px;
+    margin-bottom: 40px;
+}
+
+ol {
+    margin-top: -20px;
+}
+
+ol li {
+    color: #d4d4d4;
+    font-size: 19px;
+    margin: 25px 0;
+}
+
+.personas-paragraph {
+    margin-bottom: 50px;
+}
+
+.scenarios {
+    margin-top: -5px;
+}
+
+/*Design page CSS*/
+
+.color-box {
+    border: 1px solid #d4d4d4;
+    width: 300px;
+    text-align: center;
+    /* margin: 0 auto; */
+}
+
+.color-box div {
+    border: 1px solid #000000;
+    padding: 15px;
+    color: #000000
+}
+
+.color1 {
+    background-color: #1FC1C3;
+}
+
+.color2 {
+    background-color: #144367;
+}
+
+.color3 {
+    background-color: #D4D4D4;
+}
+
+.color4 {
+    background-color: #FFFFFF;
+}
+
+.typography-heading {
+    margin-bottom: 50px;
+}
+
+.heading-font {
+    margin-bottom: 50px;
+}
+
+.paragraph-font {
+    margin-bottom: 50px;
+}
+
+.sample-heading {
+    margin-top: -5px;
+}
+
+footer {
+    border-top: 1px solid #1FC1C3;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+footer p {
+    text-align: center;
+    margin: 0 auto;
 }

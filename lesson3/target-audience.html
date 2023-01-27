@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
     <title>Anaco's Chamber</title>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a class="inpage" href="index.html">Home</a></li>
-                <li><a href="target-audience.html">Target Audience</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="inpage" href="target-audience.html">Target Audience</a></li>
                 <li><a href="design.html">Design</a></li>
             </ul>
         </nav>
@@ -20,29 +25,29 @@
     <main>
         <h2>Target Audience</h2>
         <p>The target audience of Anaco's Chamber is experienced or new business owners who want to join a community where they can grow together, promote their products and services and help others. Also, entrepreneurs who are looking to start their business idea and need help from experienced people.</p>
-        <h2>Personas</h2>
+        <h2 class="personas-heading">Personas</h2>
         <h3>Fictitious Name</h3>
-        <p>Andres Guevara</p>
+        <p class="personas-paragraph">Andres Guevara</p>
         <h3>Occupation</h3>
-        <p>Social media marketing specialist.</p>
+        <p class="personas-paragraph">Social media marketing specialist.</p>
         <h3>Demographics</h3>
-        <p>25 years old, married, no children, has a degree in public accounting.</p>
-        <h3>Objectives</h3>
-        <p>Andres is working hard to achieve his financial freedom, and he thinks one of the ways to achieve it is to start a new business. He has many ideas in mind but is looking for the most profitable one to generate more income. He needs mentoring and guidance from experienced business owners to know what to do and how to get started.</p>
+        <p class="personas-paragraph">25 years old, married, no children, has a degree in public accounting.</p>
+        <h3 class="personas-paragraph">Objectives</h3>
+        <p class="personas-paragraph">Andres is working hard to achieve his financial freedom, and he thinks one of the ways to achieve it is to start a new business. He has many ideas in mind but is looking for the most profitable one to generate more income. He needs mentoring and guidance from experienced business owners to know what to do and how to get started.</p>
         <h3>Environment</h3>
-        <p>Loves technology, uses both his computer and mobile device because of his job, so he spends most of his day on it. He likes to navigate the internet to research business opportunities and ways of entrepreneurship.</p>
+        <p class="personas-paragraph">Loves technology, uses both his computer and mobile device because of his job, so he spends most of his day on it. He likes to navigate the internet to research business opportunities and ways of entrepreneurship.</p>
         <hr>
         <h3>Fictitious Name</h3>
-        <p>Mary Johnson</p>
+        <p class="personas-paragraph">Mary Johnson</p>
         <h3>Occupation</h3>
-        <p>Mother, teacher, owner of a school supply business.</p>
-        <h3>Demographics</h3>
-        <p>49 years old, married, mother of two children (Male and Female), degree in education.</p>
+        <p class="personas-paragraph">Mother, teacher, owner of a school supply business.</p>
+        <h3>Demographics</h3><br>
+        <p class="personas-paragraph">49 years old, married, mother of two children (Male and Female), degree in education.</p>
         <h3>Objectives</h3>
-        <p>Mary has a school supply business and is a teacher. She wants to grow her business by finding new ways to promote it and sales ideas. She would also like to mentor people with intentions of starting their own business and guide them to make it happen.</p>
+        <p class="personas-paragraph">Mary has a school supply business and is a teacher. She wants to grow her business by finding new ways to promote it and sales ideas. She would also like to mentor people with intentions of starting their own business and guide them to make it happen.</p>
         <h3>Environment</h3>
-        <p>When she is not at school, she is at home tending to her family. She mostly uses her cell phone to navigate the internet and uses the computer for business and other activities.</p>
-        <h2>Scenarios</h2>
+        <p class="personas-paragraph">When she is not at school, she is at home tending to her family. She mostly uses her cell phone to navigate the internet and uses the computer for business and other activities.</p>
+        <h2 class="scenarios">Scenarios</h2>
         <ol>
             <li>The visitor enters the website to research business ideas by learning about the different businesses that integrate Anaco's Chamber and their owners.</li>
             <li>The user enters Anaco's Chamber in order to establish a solid network of contacts.</li>
@@ -51,6 +56,10 @@
             <li>The visitor (business owner or entrepreneur) wants to know what kind of events and services Anaco's Chamber provides.</li>
         </ol>
     </main>
-    <footer></footer>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> .:|:. Luis E. Chavez .:|:. Venezuela</p>
+        <p id="lastUpdated"></p>
+    </footer>
+    <script src="scripts/main.js"></script>
 </body>
 </html>
