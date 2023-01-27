@@ -32,21 +32,6 @@ nav a {
     padding: 10px;
 }
 
-/* 
-nav li:nth-child(1) {
-    border-right: 1px solid #1FC1C3;
-    border-left: 1px solid #1FC1C3;
-}
-
-nav li:nth-child(2) {
-    border-right: 1px solid #1FC1C3;
-    /* border-left: 1px solid #1FC1C3; */
-/* } */
-
-/* nav li:nth-child(3) {
-    border-right: 1px solid #1FC1C3;
-} */
-
 nav a:hover {
     background-color: #1FC1C3;
     color: black;
@@ -66,6 +51,15 @@ main {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+    text-align: center;
+    color: #D4D4D4;
+}
+
+.target-audience {
+    margin-bottom: 50px;
 }
 
 h2 {
