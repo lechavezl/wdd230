@@ -56,6 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     text-align: center;
     color: #D4D4D4;
+    font-size: 2.3em;
 }
 
 .target-audience {
@@ -63,7 +64,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.5em;
+    font-size: 2.1em;
     margin-top: 100px;
     color: #d4d4d4;
 }
