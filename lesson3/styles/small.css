@@ -27,10 +27,11 @@ nav a {
     text-decoration: none;
     color: black;
     font-size: 18px;
-    padding: 5px 10px px 10px;
+    padding: 5px 10px 0 10px;
     color: #d4d4d4;
     padding: 10px;
 }
+
 /* 
 nav li:nth-child(1) {
     border-right: 1px solid #1FC1C3;
@@ -97,6 +98,7 @@ div img {
 
 hr {
     width: 100%;
+    margin-bottom: 60px;
 }
 
 .personas-heading {
