@@ -1,0 +1,104 @@
+@media only screen and (min-width: 40rem) {
+    
+    body {
+        padding: 5px;
+    }
+
+    nav div.social-media {
+        margin-left: 300px;
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+
+    /* Main content styles */
+
+    main {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        gap: 10px;
+    }
+    
+    /* main div {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    } */
+
+    .hero-img {
+        grid-column: 1/3;
+        grid-row: 1/2;
+        height: 150px;
+    }
+
+    .news-release {
+        grid-column: 1/3;
+        grid-row: 2/3;
+        height: 150px;
+    }
+
+    .spotlights {
+        grid-column: 1/3;
+        grid-row: 3/4;
+        display: flex;
+        height: 200px;
+        align-items: center;
+    }
+
+    .spotlights div {
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .join {
+        display: unset;
+        grid-column: 1/3;
+        grid-row: 4/5;
+        height: 150px;
+    }
+
+    .event {
+        grid-column: 1/2;
+        height: 150px;
+        grid-row: 5/6;
+    }
+
+    .weather {
+        display: unset;
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+
+    /* footer styles */
+
+    footer div.footer-info {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    footer div.footer-info div.info {
+        display: flex;
+    }
+
+    footer div.text-info {
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    footer div.location-info {
+        align-items: center;
+    }
+
+    footer div.location-info {
+        align-items: center;
+    }
+
+    footer div.footer-copyright {
+        text-align: center;
+    }
+
+}
