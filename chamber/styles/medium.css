@@ -4,12 +4,23 @@
         padding: 5px;
     }
 
+    /* Header styles */
+
     nav div.social-media {
         margin-left: 300px;
+
     }
 
     .logo {
         margin-left: 20px;
+    }
+
+    h1 {
+        font-size: 1.7em;
+    }
+
+    header p {
+        font-size: 1.5em;
     }
 
     /* Main content styles */
@@ -20,10 +31,10 @@
         gap: 10px;
     }
     
-    /* main div {
+    main div {
         margin-top: 10px;
         margin-bottom: 10px;
-    } */
+    }
 
     .hero-img {
         grid-column: 1/3;

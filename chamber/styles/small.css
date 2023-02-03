@@ -16,6 +16,11 @@ nav div.navbar {
     border-bottom: 1px solid #1FC1C3;
 }
 
+.logo-name {
+    display: flex;
+    align-items: center;
+}
+
 nav button {
     margin: .2rem 2vw;
     background-color: transparent;
@@ -127,6 +132,7 @@ nav div p {
 main {
     display: grid;
     grid-template-columns: 1fr;
+    margin: 5px;
 }
 
 main div {
@@ -156,21 +162,22 @@ main div {
 
 .spotlights {
     grid-row: 5/7;
-    height: 300px;
+    height: 450px;
     display: block;
-    text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
+    /* text-align: center; */
+    /* margin-top: auto; */
+    /* margin-bottom: auto; */
 }
 
 .spotlights div {
-    border: 1px solid blue;
-    /* height: 100px; */
+    height: 200px;
+    width: 500px;
+    margin: 10px;
 }
 
-/* .join {
+.join {
     display: none;
-} */
+}
 
 main p {
     color: #000000;
