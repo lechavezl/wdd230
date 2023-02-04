@@ -111,8 +111,16 @@
         padding: 0 20px 0 20px;
     }
 
+    .site-name {
+        font-size: 1.8em;
+    }
+
     .footer-copyright {
         padding-bottom: 5px;
+    }
+
+    .content-1::before, .content-2::before, .content-3::before, .content-4::before {
+        content: normal;
     }
 
 }

@@ -83,6 +83,10 @@
         padding: 0 20px 0 20px;
     }
 
+    .site-name {
+        font-size: 1.6em;
+    }
+
     footer div.footer-info {
         display: flex;
         align-items: center;
