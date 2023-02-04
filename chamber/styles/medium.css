@@ -6,11 +6,6 @@
 
     /* Header styles */
 
-    nav div.social-media {
-        margin-left: 300px;
-
-    }
-
     .logo {
         margin-left: 20px;
     }
@@ -52,8 +47,9 @@
         grid-column: 1/3;
         grid-row: 3/4;
         display: flex;
-        height: 200px;
-        align-items: center;
+        flex-direction: row;
+        height: 250px;
+        padding: 0 5px 0 5px;
     }
 
     .spotlights div {
@@ -110,6 +106,14 @@
 
     footer div.footer-copyright {
         text-align: center;
+    }
+
+    .content-1::before, .content-2::before, .content-3::before {
+        content: normal;
+    }
+
+    .bar-1, .bar-2, .bar-3 {
+        display: unset;
     }
 
 }

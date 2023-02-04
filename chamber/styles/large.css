@@ -4,7 +4,7 @@
 
     nav div.navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 0;
     border-bottom: 1px solid #1FC1C3;
@@ -26,7 +26,7 @@
 
     nav ul {
         display: flex;
-        /* margin-left: 50px; */
+        margin-left: 150px;
     }
 
     nav ul.open {
@@ -38,10 +38,6 @@
         font-size: 17px;
     }
 
-    /* h1 {
-        margin-left: -130px;
-    } */
-
     header p {
         font-size: 17px;
     }
@@ -50,8 +46,9 @@
         margin-left: 10px;
     }
 
-    nav div .social-media {
-        margin-right: 10px;
+    .social-media {
+        margin-right: auto;
+        margin-left: auto;
     }
 
     /* Main content styles */
@@ -64,8 +61,6 @@
         display: grid;
         grid-template-columns: 1fr 3fr 1fr;
         gap: 5px;
-        /* margin-top: 5px;
-        margin-bottom: 5px; */
     }
 
     .event {
@@ -83,12 +78,16 @@
         grid-column: 3/4;
         grid-row: 1/4;
         height: 96%;
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 15px;
     }
 
     .spotlights div {
         height: 100%;
+        
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .weather {
@@ -107,5 +106,13 @@
     }
 
     /* Footer styles */
+
+    footer {
+        padding: 0 20px 0 20px;
+    }
+
+    .footer-copyright {
+        padding-bottom: 5px;
+    }
 
 }

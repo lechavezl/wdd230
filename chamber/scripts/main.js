@@ -15,9 +15,11 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 }).format(now);
 
 dateNav.innerHTML = `${fulldateUK}`
-// let year = currentDate.getFullYear();
-// document.querySelector("#currentYear").innerHTML = year;
+
+// Show the current year
+const year = now.getFullYear();
+document.getElementById("currentYear").innerHTML = year;
 
 // Show the last time when the document was modified
-// let lastModif = document.lastModified;
-// document.querySelector("#lastUpdated").innerHTML = `Last Updated: ${lastModif}`;
+let lastModif = document.lastModified;
+document.querySelector("#lastUpdated").innerHTML = `Last Modification: ${lastModif}`;
