@@ -79,6 +79,10 @@
 
     /* footer styles */
 
+    footer {
+        padding: 0 20px 0 20px;
+    }
+
     footer div.footer-info {
         display: flex;
         align-items: center;
