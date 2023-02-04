@@ -115,10 +115,10 @@ p {
     color: #D4D4D4;
 }
 
-nav div p {
+nav h2 {
     text-align: center;
-    padding: 10px;
-    
+    font-size: 1.2em;
+    color: #D4D4D4;
 }
 
 
@@ -195,8 +195,9 @@ footer {
     text-align: center;
 }
 
-.site-name {
-    font-size: 1.6em;
+footer h2 {
+    font-size: 1.7em;
+    color: #D4D4D4;
 }
 
 footer p {

@@ -18,6 +18,10 @@
         font-size: 1.5em;
     }
 
+    nav h2 {
+        font-size: 1.3em;
+    }
+
     /* Main content styles */
 
     main {
@@ -83,8 +87,8 @@
         padding: 0 20px 0 20px;
     }
 
-    .site-name {
-        font-size: 1.6em;
+    footer h2 {
+        font-size: 1.8em;
     }
 
     footer div.footer-info {

@@ -15,9 +15,10 @@
         align-items: center;
     }
 
-    nav div p {
+    nav h2 {
         text-align: center;
         padding: 10px;
+        font-size: 1.4em;
     }
 
     nav button {
@@ -111,7 +112,7 @@
         padding: 0 20px 0 20px;
     }
 
-    .site-name {
+    footer h2 {
         font-size: 1.8em;
     }
 
