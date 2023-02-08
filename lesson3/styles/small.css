@@ -28,7 +28,7 @@ nav a {
     color: black;
     font-size: 18px;
     padding: 5px 10px 0 10px;
-    color: #d4d4d4;
+    color: #FFFFFF;
     padding: 10px;
 }
 
@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     text-align: center;
-    color: #D4D4D4;
+    color: #FFFFFF;
     font-size: 2.3em;
 }
 
@@ -66,14 +66,14 @@ h1 {
 h2 {
     font-size: 2.1em;
     margin-top: 100px;
-    color: #d4d4d4;
+    color: #FFFFFF;
 }
 
 p {
     margin-top: -20px;
     font-size: 19px;
     text-align: left;
-    color: #d4d4d4;
+    color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -101,7 +101,7 @@ hr {
 }
 
 h3 {
-    color: #d4d4d4;
+    color: #FFFFFF;
     font-size: 22px;
     margin-top: -5px;
     margin-bottom: 40px;
@@ -112,7 +112,7 @@ ol {
 }
 
 ol li {
-    color: #d4d4d4;
+    color: #FFFFFF;
     font-size: 19px;
     margin: 25px 0;
 }
@@ -159,9 +159,17 @@ ol li {
 .color-box div p {
     text-align: center;
     justify-content: center;
-    margin: 0;
-    color: black
+    width: 80px;
+    margin: 0 auto 0 auto;
+    color: white;
+    background-color: #424242;
 }
+
+/* .color-box .color1 p {
+    color: white;
+    width: 80px;
+    background-color: gray;
+} */
 
 .typography-heading {
     margin-bottom: 50px;
