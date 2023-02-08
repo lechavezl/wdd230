@@ -3,7 +3,8 @@ const input = document.querySelector("#favchap");
 const button = document.querySelector("button");
 
 button.addEventListener("click", () => {
-    const myItem = input.value;
+    if (input.value.length >= 1) {
+        const myItem = input.value;
     input.value = '';
 
     const listItem = document.createElement("li");
@@ -21,4 +22,7 @@ button.addEventListener("click", () => {
     });
 
     input.focus();
+    } else {
+        alert("Enter a valid input. Try again.")
+    };
 });
