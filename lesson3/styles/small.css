@@ -156,6 +156,13 @@ ol li {
     background-color: #FFFFFF;
 }
 
+.color-box div p {
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    color: black
+}
+
 .typography-heading {
     margin-bottom: 50px;
 }
