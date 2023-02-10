@@ -43,7 +43,7 @@
         font-size: 17px;
     }
 
-    .logo img{
+    .logo img {
         margin-left: 10px;
     }
 
@@ -55,13 +55,13 @@
     /* Main content styles */
 
     .spotlights div.spotlight-3 {
-        display: unset;
+        display: block;
     }
 
     main {
         display: grid;
         grid-template-columns: 1fr 3fr 1fr;
-        gap: 5px;
+        gap: 10px;
     }
 
     .event {
@@ -72,13 +72,13 @@
     .hero-img {
         grid-column: 2/3;
         grid-row: 1/3;
-        height: 100%;
+        /* height: 100%; */
     }
 
     .spotlights {
         grid-column: 3/4;
         grid-row: 1/4;
-        height: 96%;
+        /* height: 96%; */
         display: grid;
         grid-template-columns: 1fr;
         padding: 15px;
