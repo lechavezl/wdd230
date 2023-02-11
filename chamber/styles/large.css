@@ -2,6 +2,10 @@
 
     /* Nav styles */
 
+    #banner {
+        font-size: 1.3rem;
+    }
+
     nav div.navbar {
     display: flex;
     justify-content: center;
@@ -50,6 +54,7 @@
     .social-media {
         margin-right: auto;
         margin-left: auto;
+        
     }
 
     /* Main content styles */
@@ -62,54 +67,97 @@
         display: grid;
         grid-template-columns: 1fr 3fr 1fr;
         gap: 10px;
+        max-width: 1200px;
+        margin: 0 auto 0 auto;
     }
 
     .event {
         grid-column: 1/2;
         grid-row: 1/2;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .hero-img {
         grid-column: 2/3;
         grid-row: 1/3;
         /* height: 100%; */
+        margin: 0;
+    }
+
+    .hero-img picture img {
+        height: 550px;
     }
 
     .spotlights {
         grid-column: 3/4;
         grid-row: 1/4;
-        /* height: 96%; */
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
     }
 
     .spotlights div {
         height: 100%;
-        
         margin-left: auto;
         margin-right: auto;
+        padding: 10px 0 10px 0;
+    }
+
+    .spotlight-3 {
+        text-align: center;
+        background-color: #0f3552;
+        padding: 10px;
+    }
+
+    .spotlights picture img {
+        width: 80px;
+        height: 80px;
     }
 
     .weather {
         grid-column: 1/2;
         grid-row: 2/3;
+        align-items: center;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .weather hr {
+        width: 98%;
     }
 
     .join {
         grid-column: 1/2;
         grid-row: 3/4;
+        margin: 0;
     }
 
     .news-release {
         grid-column: 2/3;
         grid-row: 3/4;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .news-release h3 {
+        margin-bottom: 25px;
     }
 
     /* Footer styles */
 
     footer {
+        margin-top: 20px;
         padding: 0 20px 0 20px;
+        border-top: 1px solid #1FC1C3;
     }
 
     footer h2 {

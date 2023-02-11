@@ -6,6 +6,10 @@
 
 /* Header styles */
 
+#banner {
+    font-size: 0.9rem;
+}
+
 nav {
     background-color: #144367;
 }
@@ -77,8 +81,6 @@ nav ul.open {
 }
 
 .logo img{
-    width: 100px;
-    height: 100px;
     grid-column: 1/2;
 }
 
@@ -89,10 +91,14 @@ nav div.social-media {
     grid-column: 4/5;
 }
 
-.social-media img {
+/* .social-media img {
     width: 40px;
     height: 40px;
     border-radius: 20px;
+} */
+
+.social-media a {
+    margin: 0 5px 0 5px;
 }
 
 header p {
@@ -188,7 +194,7 @@ main {
 }
 
 .hero-btn a {
-    color: #FFFFFF;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -254,11 +260,6 @@ footer h2 {
 
 footer p {
     font-size: 17px;
-}
-
-footer div.footer-info img {
-    width: 100px;
-    height: 100px;
 }
 
 footer div.location-info {
