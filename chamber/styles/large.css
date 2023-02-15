@@ -88,10 +88,6 @@
         margin: 0;
     }
 
-    .hero-img picture img {
-        height: 550px;
-    }
-
     .spotlights {
         grid-column: 3/4;
         grid-row: 1/4;
@@ -111,11 +107,6 @@
         text-align: center;
         background-color: #0f3552;
         padding: 10px;
-    }
-
-    .spotlights picture img {
-        width: 80px;
-        height: 80px;
     }
 
     .weather {

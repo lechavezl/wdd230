@@ -21,7 +21,7 @@
         <nav>
             <div class="navbar">
                 <div class="logo-name">
-                    <a class="logo" href="index.html"><img src="images/rsz_anacos_chamber_1.png" alt="Anaco's Chamber Logo"></a>
+                    <a class="logo" href="index.html"><img src="images/rsz_anacos_chamber_1.webp" alt="Anaco's Chamber Logo"></a>
                     <h1>Anaco's Chamber</h1>
                 </div>
                 <ul id="navList">
@@ -51,7 +51,13 @@
         </div>
         <div class="hero-img">
             <picture>
-                <img src="images/placeholder.jpg" alt="Anaco's Plaza Bolivar">
+                <!-- <img src="images/placeholder.jpg" alt="Anaco's Plaza Bolivar"> -->
+                <source media="(max-width: 639px)"
+                srcset="images/wdd230-639-optm.jpg">
+                <source media="(max-width: 1023px)"
+                srcset="images/wdd230-1023-optm.jpg">
+                <img class="img-hero"
+                src="images/wdd230-1024-optm.jpg" alt="hero image example">
             </picture>
             <h2>Welcome to Anaco's Chamber</h2>
             <div class="hero-btn"><a href="#">Join the chamber</a></div>
@@ -91,11 +97,11 @@
         </div>
         <div class="weather">
             <h3>Weather</h3>
-            <p>33°C</p>
+            <p><span id="temperature">33</span>°C</p>
             <p>Partly Cloudy</p>
             <hr>
-            <p>Wind Speed: 2.5 km/h</p>
-            <P>Wind Chill: N/A</P>
+            <p>Wind Speed: <span id="windSpeed">2.5</span> km/h</p>
+            <P>Wind Chill: <span id="windChillValue">N/A</span></P>
 
         </div>
         <div class="join">
@@ -113,7 +119,7 @@
     <footer>
         <div class="footer-info">
             <div class="info">
-                <a href="index.html"><img src="images/rsz_anacos_chamber_1.png" alt="Anaco's Chamber logo"></a>
+                <a href="index.html"><img src="images/rsz_anacos_chamber_1.webp" alt="Anaco's Chamber logo"></a>
                 <div class="text-info">
                     <h2>Anaco's Chamber</h2>
                     <p>Junín St. between Apure St. and Lara St.</p>
@@ -132,5 +138,6 @@
         </div>
     </footer>
     <script src="scripts/main.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
