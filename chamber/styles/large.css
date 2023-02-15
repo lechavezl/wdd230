@@ -88,6 +88,10 @@
         margin: 0;
     }
 
+    .hero-img picture img {
+        height: 100%;
+    }
+
     .spotlights {
         grid-column: 3/4;
         grid-row: 1/4;
