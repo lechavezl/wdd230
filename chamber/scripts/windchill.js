@@ -18,6 +18,13 @@ function calculateWindChill(temp, wspeed) {
         // if True calculate the wind chill        
         let windChill = 35.74 + (0.6215 * temp) - (35.75 * (wspeed ** 0.16)) + (0.4275 * (temp * (wspeed ** 0.16)))
 
-        return windChill;
+        let showWindChill = `${windChill.toFixed(2)}°F`
+        return showWindChill;
+    }
+
+    else {
+        return "N/A";
     }
 }
+
+document.querySelector("#windChillValue").innerHTML = calculateWindChill(fahTemperature, mileSpeed);
