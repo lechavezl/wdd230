@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    background-color: #144367;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+}
+
+picture {
+    display: block;
+    padding: 5px 0 5px 0;
+}
+
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    background-color: #a4a4a4;
+    padding: 10px;
+}
