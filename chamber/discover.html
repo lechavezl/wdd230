@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <title>Anaco's Chamber</title>
+        <meta name="description" content="Anaco's Chamber is the Chamber of Commerce of Anaco, Venezuela, where business owners and entrepreneurs can find growth opportunities and help others.">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="favicon" href="anacos-chamber-fav.ico">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+    </head>
+    <body>
+        <header>
+            <p id="banner"></p>
+            <nav>
+                <div class="navbar">
+                    <div class="logo-name">
+                        <a class="logo" href="index.html"><img src="images/rsz_anacos_chamber_1.webp" alt="Anaco's Chamber Logo"></a>
+                        <h1>Anaco's Chamber</h1>
+                    </div>
+                    <ul id="navList">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="#">Discover</a></li>
+                        <li><a href="#">Directory</a></li>
+                        <li><a href="#">Join</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-icon.png" alt="Facebok icon"></a>
+                        <a href="https://www.linkedin.com/home" target="_blank"><img src="images/linkedin-icon.png" alt="Twitter icon"></a>
+                    </div>
+                    <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+                </div>
+                <div class="navDate">
+                    <p id="currentDate"></p>
+                </div>
+            </nav>
+        </header>
+        <main class="discover-grid">
+            <h2>Get to know Anaco</h2>
+            <div class="anaco-info">
+                <div class="demographic">
+                    <h3 class="demographic-heading">Demographic</h3>
+                    <h4>Population:</h4>
+                    <p>150,704</p>
+                    <img src="images/population.png" alt="Population icon">
+                    <h4 class="surface">Surface:</h4>
+                    <p>727,65 km²</p>
+                    <img src="images/location.png" alt="Location icon">
+                </div>
+                <hr class="hr-1">
+                <div class="demographic-weather">
+                    <h3>Weather</h3>
+                    <img src="images/weather-app (1).png" alt="Weather icon">
+                    <p>Tropical semi-arid and isothermal savanna</p>
+                </div>
+                <hr class="hr-2">
+                <div class="economy">
+                    <h3>Economy</h3>
+                    <p>✔ Natural gas distributor</p>
+                    <img src="images/fire.png" alt="Gas icon">
+                    <p>✔ Petroleum distributor</p>
+                    <img src="images/petroleum.png" alt="Petroleum icon">
+                    <p>✔ Agricultural zone</p>
+                    <img src="images/tractor.png" alt="Tractor icon">
+                </div>
+                <hr class="hr-3">
+            </div>
+            <div class="anaco-pictures">
+                <picture>
+                    <img src="images/dummy_1000x1000_ffffff_0f3552_placeholder.jpg"
+                    data-src=""
+                    alt="">
+                </picture>
+                <picture>
+                    <img src="images/dummy_1000x1000_ffffff_0f3552_placeholder.jpg"
+                    data-src=""
+                    alt="">
+                </picture>
+                <picture>
+                    <img src="images/dummy_1000x1000_ffffff_0f3552_placeholder.jpg"
+                    data-src=""
+                    alt="">
+                </picture>
+                <picture>
+                    <img src="images/dummy_1000x1000_ffffff_0f3552_placeholder.jpg"
+                    data-src=""
+                    alt="">
+                </picture>
+                <picture>
+                    <img src="images/dummy_1000x1000_ffffff_0f3552_placeholder.jpg"
+                    data-src=""
+                    alt="">
+                </picture>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-info">
+                <div class="info">
+                    <a href="index.html"><img src="images/rsz_anacos_chamber_1.webp" alt="Anaco's Chamber logo"></a>
+                    <div class="text-info">
+                        <h2>Anaco's Chamber</h2>
+                        <p>Junín St. between Apure St. and Lara St.</p>
+                        <p>Anaco, Venezuela 6003</p>
+                </div>
+                </div>
+                <div class="location-info">
+                    <p>info@anacoschamber.com</p>
+                    <p>(+58) 412-123-4567</p>
+                    <p>&#128205; <a class="location-map" href="https://goo.gl/maps/u7APvjdxDN5oeT5t7" target="_blank">Location Map</a></p>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-copyright">
+                <p><span class="content-1">&copy;<span id="currentYear"></span> Anaco's Chamber</span><span class="content-2"> <span class="bar-1">|</span> Luis E. Chavez</span><span class="content-3"> <span class="bar-2">|</span> WDD 230 Project <span class="bar-3">|</span></span> <span class="content-4" id="lastUpdated"></span></p>
+            </div>
+        </footer>
+        <script src="scripts/main.js"></script>
+    </body>

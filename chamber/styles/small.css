@@ -162,6 +162,7 @@ main {
 
 .hero-img picture img {
     width: 100%;
+    text-align: center;
 }
 
 .hero-img h2 {
@@ -276,4 +277,58 @@ footer div.footer-copyright {
 
 .bar-1, .bar-2, .bar-3 {
     display: none;
+}
+
+
+/* Discover page */
+
+/* Main tag of the Discover page */
+
+main.discover-grid h2 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.demographic {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height: 30px;
+    text-align: center;
+}
+
+.demographic h3 {
+    grid-column: 1/3;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.demographic .surface {
+    grid-column: 1/2;
+}
+
+.demographic-weather {
+    text-align: center;
+}
+
+.demographic-weather h3 {
+    margin-bottom: 20px;
+}
+
+.demographic-weather img {
+    margin-bottom: 20px;
+}
+
+.economy h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.anaco-pictures picture img {
+    width: 355px;
+    height: 400px;
+}
+
+.anaco-pictures {
+    text-align: center;
 }
