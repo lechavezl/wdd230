@@ -26,7 +26,7 @@
                     </div>
                     <ul id="navList">
                         <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="#">Discover</a></li>
+                        <li class="active"><a href="discover.html">Discover</a></li>
                         <li><a href="#">Directory</a></li>
                         <li><a href="#">Join</a></li>
                         <li><a href="#">Contact</a></li>
@@ -57,7 +57,7 @@
                 <hr class="hr-1">
                 <div class="demographic-weather">
                     <h3>Weather</h3>
-                    <img src="images/weather-app (1).png" alt="Weather icon">
+                    <img src="images/weather-app.png" alt="Weather icon">
                     <p>Tropical semi-arid and isothermal savanna</p>
                 </div>
                 <hr class="hr-2">
@@ -71,38 +71,46 @@
                     <img src="images/tractor.png" alt="Tractor icon">
                 </div>
                 <hr class="hr-3">
+                <div>
+                    <p id="lastDay"></p>
+                </div>
             </div>
             <div class="anaco-pictures">
                 <picture>
                     <img src="images/dummy_355x300_ffffff_0f3552_placeholder.png"
-                    data-src="images/panoramic-view.jpg"
-                    alt="Panoramic view of Anaco">
-                    <p>An aerial shot of the city of Anaco made with a drone.</p>
+                    data-src="images/panoramic-view-optm.jpg"
+                    alt="Panoramic view of Anaco"
+                    loading="lazy">
                 </picture>
+                <p class="picture-description">An aerial shot of the city of Anaco made with a drone.</p>
                 <picture>
                     <img src="images/dummy_355x300_ffffff_0f3552_placeholder.png"
                     data-src="images/plaza-bolivar-anaco-anzoategui.jpg"
-                    alt="Plaza bolizar">
-                    <p>Plaza Bolivar is a place where people go to hang out, relax or eat an ice cream.</p>
+                    alt="Plaza bolizar"
+                    loading="lazy">
                 </picture>
+                <p class="picture-description">Plaza Bolivar is a place where people go to hang out, relax or eat an ice cream.</p>
                 <picture>
                     <img src="images/dummy_355x300_ffffff_0f3552_placeholder.png"
                     data-src="images/mayors-office-plaza-optm.jpg"
-                    alt="Mayor's office plaza">
-                    <p>This is the plaza known as the alcaldia plaza. This is because the mayor's office is right next to it.</p>
+                    alt="Mayor's office plaza"
+                    loading="lazy">
                 </picture>
+                <p class="picture-description">This is the plaza known as the alcaldia plaza. This is because the mayor's office is right next to it.</p>
                 <picture>
                     <img src="images/dummy_355x300_ffffff_0f3552_placeholder.png"
                     data-src="images/i-love-anaco-optm.JPG"
-                    alt="Anaco entrance">
-                    <p>Mural "Yo ♥️ Anaco" located at the entrance of the city.</p>
+                    alt="Anaco entrance"
+                    loading="lazy">
                 </picture>
+                <p class="picture-description">Mural "Yo ♥️ Anaco" located at the entrance of the city.</p>
                 <picture>
                     <img src="images/dummy_355x300_ffffff_0f3552_placeholder.png"
                     data-src="images/campo-rojo-entrance.jpeg"
-                    alt="Campo rojo entrance">
-                    <p>Road that passes through the entrance of Campo Rojo.</p>
+                    alt="Campo rojo entrance"
+                    loading="lazy">
                 </picture>
+                <p class="picture-description">Road that passes through the entrance of Campo Rojo.</p>
             </div>
         </main>
         <footer>
@@ -127,4 +135,5 @@
             </div>
         </footer>
         <script src="scripts/main.js"></script>
+        <script src="scripts/last-visit.js"></script>
     </body>

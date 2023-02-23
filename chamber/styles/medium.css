@@ -173,6 +173,7 @@
     main.discover-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: 80px;
     }
 
     main.discover-grid h2 {
@@ -284,6 +285,26 @@
         grid-column: 2/3;
         grid-row: 4/5;
         padding: 25px 0 25px 0;
+    }
+
+    .anaco-pictures {
+        display: grid;
+        grid-template-columns: 355px;
+        align-items: center;
+        margin: 0 auto 0 auto;
+    }
+
+    .anaco-pictures picture img{
+        padding: 0;
+    }
+
+    .anaco-pictures img:hover {
+        box-shadow: 0 0 50px #181818;
+    }
+
+    .picture-description {
+        margin: 10px 0 50px 0;
+        text-align: left;
     }
 
 }
