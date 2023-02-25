@@ -59,3 +59,17 @@ thead th:nth-child(1) {
 tbody tr:nth-child(2) {
     background-color: hsl(0, 0%, 93%, 1);
 }
+
+@media only screen and (min-width: 40rem) {
+    
+    table {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 64em) {
+
+    table {
+        width: 50%;
+    }
+}
