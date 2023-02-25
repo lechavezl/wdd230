@@ -1,6 +1,11 @@
+body {
+    display: grid;
+    place-items: center;
+}
+
 table {
-	margin: 10px auto;
-	border: thin solid #000000;
+    text-align: center;
+    border-top: none;
 	border-collapse: collapse;
     width: 500px;
     box-shadow: 0 0 7px #5e5e5e;
@@ -8,15 +13,13 @@ table {
 
 table caption:nth-child(1) {
     padding: 15px;
-    background-color: firebrick;
     color: #FFFFFF;
     font-weight: bold;
     font-size: 1.3rem;
 }
 
-table caption:nth-child(4) {
-    caption-side: bottom;
-    margin: 5px;
+p {
+    text-align: center;
 }
 
 .thead {
@@ -24,8 +27,15 @@ table caption:nth-child(4) {
     color: #FFFFFF;
 }
 
-th, td {
-    border: 1px solid #E5E5E5;
+td {
+    border-left: 1px solid #E5E5E5;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+th {
     text-align: center;
     padding: 15px;
     font-size: 1.1rem;
@@ -39,9 +49,10 @@ table caption:nth-child(1) {
 .theader {
     background-color: #333333;
     color: #FFFFFF;
+    border: none;
 }
 
-.blank-column {
+thead th:nth-child(1) {
     background-color: #000000;
 }
 
