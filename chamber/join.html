@@ -42,7 +42,7 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="main-join">
         <h1>Anaco's Chamber's joining application</h1>
         <form method="get" action="thanks.html">
             <fieldset>
@@ -54,6 +54,21 @@
                 <label class="top">Phone * <input type="tel" name="phone" placeholder="1235551234" required></label>
                 <label class="top">Business Name * <input type="text" name="businessName" required></label>
             </fieldset>
+            <fieldset>
+                <legend>Membership Information</legend>
+                <div>Audience</div>
+                <label class="sbs"><input type="radio" name="membership" value="beginner"> NP Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="intermediate"> Bronze Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="advanced"> Silver Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="advanced"> Gold Membership</label>
+            </fieldset>
+            <fieldset>
+                <legend>Aplicant Information</legend>
+                <label class="top">Business Name * <input type="text" name="businessName" required></label>
+                <label class="top"> Business Position Tittle <input type="text" name="businessPosition"></label>
+                <label class="top">Business Description<br><textarea name="description" cols="60" rows="10"></textarea></label>
+            </fieldset>
+            <input type="submit" value="Become a Member" class="submitBtn">
         </form>
     </main>
     <footer>
