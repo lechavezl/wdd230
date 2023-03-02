@@ -43,7 +43,7 @@
         </nav>
     </header>
     <main class="main-join">
-        <h1>Anaco's Chamber's joining application</h1>
+        <h2>Anaco's Chamber's joining application</h1>
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Aplicant Information</legend>
@@ -52,52 +52,48 @@
                 <label class="top">Email * <input type="email" name="email" placeholder="someone@gmail.com" required></label>
                 <label class="top">Phone * <input type="tel" name="phone" placeholder="1235551234" required></label>
             </fieldset>
-            <fieldset>
+            <fieldset class="membership">
                 <legend>Membership Information</legend>
                 <div>Audience</div>
                 <label class="sbs"><input type="radio" name="membership" value="beginner"> NP Membership</label>
                 <label class="sbs"><input type="radio" name="membership" value="intermediate"> Bronze Membership</label>
                 <label class="sbs"><input type="radio" name="membership" value="advanced"> Silver Membership</label>
                 <label class="sbs"><input type="radio" name="membership" value="advanced"> Gold Membership</label>
-                <div class="membership-table">
-                    <table>
-                        <caption>ACME Wildwest Services</caption>
-                        <thead>
-                            <tr>
-                                <th scope="col"></th>
-                                <th scope="col" class="theader">NP Membership</th>
-                                <th scope="col" class="theader">Bronze Membership</th>
-                                <th scope="col" class="theader">Silver Membership</th>
-                                <th scope="col" class="theader">Gold Membership</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">Feature 1</th>
-                                <td>&#x2713;</td>
-                                <td>&#x2713;</td>
-                                <td>&#x2713;</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Feature 2</th>
-                                <td>❌</td>
-                                <td>&#x2713;</td>
-                                <td>&#x2713;</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Feature 3</th>
-                                <td>❌</td>
-                                <td>❌</td>
-                                <td>&#x2713;</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Feature 4</th>
-                                <td>❌</td>
-                                <td>❌</td>
-                                <td>&#x2713;</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="membership-notable">
+                    <h2>Anaco's Chamber Membership Info</h2>
+                    <div>
+                        <h3>🏅 NP Membership: Free</h3>
+                        <ul>
+                            <li>Access to events</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>🥉 Bronze Membership: $250 per year</h3>
+                        <ul>
+                            <li>Access to events</li>
+                            <li>Discounts</li>
+                            <li>Advertising</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>🥈 Silver Membership: $500 per year</h3>
+                        <ul>
+                            <li>Access to events</li>
+                            <li>Discounts</li>
+                            <li>Advertising</li>
+                            <li>Business growth training</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>🥇 Gold Membership: $600 per year</h3>
+                        <ul>
+                            <li>Access to events</li>
+                            <li>Discounts</li>
+                            <li>Advertising</li>
+                            <li>Business growth training</li>
+                            <li>Access to our contact network</li>
+                        </ul>
+                    </div>
                 </div>
             </fieldset>
             <fieldset>
@@ -108,6 +104,56 @@
             </fieldset>
             <input type="submit" value="Become a Member" class="submitBtn">
         </form>
+        <table>
+            <caption>Anaco's Chamber Membership Info</caption>
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col" class="theader">NP Membership<br><span class="costs">Free</span></th>
+                    <th scope="col" class="theader">Bronze Membership<br><span class="costs">$250 per year</span></th>
+                    <th scope="col" class="theader">Silver Membership<br><span class="costs">$500 per year</span></th>
+                    <th scope="col" class="theader">Gold Membership<br><span class="costs">$600 per year</span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Access to events</th>
+                    <td>&#x2713;</td>
+                    <td>&#x2713;</td>
+                    <td>&#x2713;</td>
+                    <td>&#x2713;</td>
+                </tr>
+                <tr>
+                    <th scope="row">Discounts</th>
+                    <td>❌</td>
+                    <td>&#x2713;</td>
+                    <td>&#x2713;</td>
+                    <td>&#x2713;</td>
+                </tr>
+                <tr>
+                    <th scope="row">Advertising</th>
+                    <td>❌</td>
+                    <td>&#x2713;</td>
+                    <td>&#x2713;</td>
+                    <td>&#x2713;</td>
+                </tr>
+                <tr>
+                    <th scope="row">Business growth training</th>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>&#x2713;</td>
+                    <td>&#x2713;</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Access to our contact network</th>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>&#x2713;</td>
+                </tr>
+            </tbody>
+        </table>
     </main>
     <footer>
         <div class="footer-info">

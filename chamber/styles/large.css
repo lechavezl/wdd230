@@ -167,4 +167,13 @@
         content: normal;
     }
 
+    /*-------------------- Join Page --------------------*/
+
+    /*--------------- Table ---------------*/
+
+    table {
+        width: 70%;
+        margin: 30px auto 40px auto;
+    }
+
 }

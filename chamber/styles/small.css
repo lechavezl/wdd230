@@ -406,7 +406,13 @@ picture img {
 /*-------------------- Join Page --------------------*/
 
 .main-join {
-    display: block;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-join h2 {
+    text-align: center;
+    margin-top: 25px;
 }
 
 /*--------------- Form ---------------*/
@@ -421,13 +427,14 @@ form legend {
     color: #FFFFFF;
     margin: 0 1rem;
     padding: 0 .5rem;
+    font-size: 1.5rem;
 }
 
 form label.top, form div {
     display: block;
     padding-top: 1rem;
     color: #FFFFFF;
-    font-size: .8rem;
+    font-size: 1rem;
 }
 
 form label.top input, form label.top select {
@@ -441,6 +448,10 @@ form label.top input, form label.top select {
     width: 100%;
     max-width: 20rem;
     background-color: rgba(0, 0, 0, 0.1);
+}
+
+form div:nth-child(2) {
+    font-size: 1.1rem;
 }
 
 form label.sbs {
@@ -472,61 +483,34 @@ input::placeholder {
     color: #e7e7e7;
 }
 
-/*--------------- Form ---------------*/
+textarea {
+    width: 100%;
+}
+
+/*--------------- Table ---------------*/
 
 table {
-    text-align: center;
-    border-top: none;
-	border-collapse: collapse;
-    width: 50%;
-    box-shadow: 0 0 7px #5e5e5e;
+    display: none;
 }
 
-table caption:nth-child(1) {
-    padding: 15px;
-    color: #FFFFFF;
-    font-weight: bold;
-    font-size: 1.3rem;
+.membership-notable h2 {
+    font-size: 1rem;
+    margin: 20px 0 50px 0;
 }
 
-/* p {
-    text-align: center;
-} */
-
-.thead {
-    background-color: #000000;
-    color: #FFFFFF;
+.membership-notable h3 {
+    font-size: 1rem;
 }
 
-td {
-    border-left: 1px solid #E5E5E5;
-    text-align: center;
-    padding: 15px;
-    font-size: 1.1rem;
-    font-weight: bold;
+.membership-notable ul {
+    list-style: none;
+    margin: 15px 0 25px 0;
 }
 
-th {
-    text-align: center;
-    padding: 15px;
-    font-size: 1.1rem;
-    font-weight: bold;
+.membership-notable ul li:before {
+    content: "✔";
 }
 
-table caption:nth-child(1) {
-    background-color: #000000;
-}
-
-.theader {
-    background-color: #333333;
-    color: #FFFFFF;
-    border: none;
-}
-
-thead th:nth-child(1) {
-    background-color: #000000;
-}
-
-tbody tr:nth-child(2) {
-    background-color: hsl(0, 0%, 93%, 1);
+.membership-notable ul li {
+    font-size: 1rem;
 }
