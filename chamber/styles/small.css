@@ -471,3 +471,62 @@ form label.top input:required:valid {
 input::placeholder {
     color: #e7e7e7;
 }
+
+/*--------------- Form ---------------*/
+
+table {
+    text-align: center;
+    border-top: none;
+	border-collapse: collapse;
+    width: 50%;
+    box-shadow: 0 0 7px #5e5e5e;
+}
+
+table caption:nth-child(1) {
+    padding: 15px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+/* p {
+    text-align: center;
+} */
+
+.thead {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+td {
+    border-left: 1px solid #E5E5E5;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+th {
+    text-align: center;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+table caption:nth-child(1) {
+    background-color: #000000;
+}
+
+.theader {
+    background-color: #333333;
+    color: #FFFFFF;
+    border: none;
+}
+
+thead th:nth-child(1) {
+    background-color: #000000;
+}
+
+tbody tr:nth-child(2) {
+    background-color: hsl(0, 0%, 93%, 1);
+}

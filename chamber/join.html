@@ -49,10 +49,8 @@
                 <legend>Aplicant Information</legend>
                 <label class="top">First Name * <input type="text" name="fname" required></label>
                 <label class="top">Last Name * <input type="text" name="lname" required></label>
-                <label class="top"> Business Position <input type="text" name="businessPosition"></label>
                 <label class="top">Email * <input type="email" name="email" placeholder="someone@gmail.com" required></label>
                 <label class="top">Phone * <input type="tel" name="phone" placeholder="1235551234" required></label>
-                <label class="top">Business Name * <input type="text" name="businessName" required></label>
             </fieldset>
             <fieldset>
                 <legend>Membership Information</legend>
@@ -61,11 +59,51 @@
                 <label class="sbs"><input type="radio" name="membership" value="intermediate"> Bronze Membership</label>
                 <label class="sbs"><input type="radio" name="membership" value="advanced"> Silver Membership</label>
                 <label class="sbs"><input type="radio" name="membership" value="advanced"> Gold Membership</label>
+                <div class="membership-table">
+                    <table>
+                        <caption>ACME Wildwest Services</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col" class="theader">NP Membership</th>
+                                <th scope="col" class="theader">Bronze Membership</th>
+                                <th scope="col" class="theader">Silver Membership</th>
+                                <th scope="col" class="theader">Gold Membership</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Feature 1</th>
+                                <td>&#x2713;</td>
+                                <td>&#x2713;</td>
+                                <td>&#x2713;</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Feature 2</th>
+                                <td>❌</td>
+                                <td>&#x2713;</td>
+                                <td>&#x2713;</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Feature 3</th>
+                                <td>❌</td>
+                                <td>❌</td>
+                                <td>&#x2713;</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Feature 4</th>
+                                <td>❌</td>
+                                <td>❌</td>
+                                <td>&#x2713;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Aplicant Information</legend>
                 <label class="top">Business Name * <input type="text" name="businessName" required></label>
-                <label class="top"> Business Position Tittle <input type="text" name="businessPosition"></label>
+                <label class="top"> Business Position Tittle <input type="text" name="businessPosition" pattern="[A-Za-z\s\-]{7,}"></label>
                 <label class="top">Business Description<br><textarea name="description" cols="60" rows="10"></textarea></label>
             </fieldset>
             <input type="submit" value="Become a Member" class="submitBtn">
