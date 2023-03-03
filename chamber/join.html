@@ -28,7 +28,7 @@
                     <li class="active"><a href="index.html">Home</a></li>
                     <li class="active"><a href="discover.html">Discover</a></li>
                     <li><a href="#">Directory</a></li>
-                    <li><a href="#">Join</a></li>
+                    <li class="active"><a href="join.html">Join</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
                 <div class="social-media">
@@ -43,7 +43,7 @@
         </nav>
     </header>
     <main class="main-join">
-        <h2>Anaco's Chamber's joining application</h1>
+        <h2>Anaco's Chamber's joining application</h2>
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Aplicant Information</legend>
@@ -100,9 +100,10 @@
                 <legend>Aplicant Information</legend>
                 <label class="top">Business Name * <input type="text" name="businessName" required></label>
                 <label class="top"> Business Position Tittle <input type="text" name="businessPosition" pattern="[A-Za-z\s\-]{7,}"></label>
-                <label class="top">Business Description<br><textarea name="description" cols="60" rows="10"></textarea></label>
+                <label class="top">Please Describe Your Business<br><textarea name="description" cols="60" rows="10"></textarea></label>
             </fieldset>
-            <input type="submit" value="Become a Member" class="submitBtn">
+            <input type="hidden" id="hiddenDate" name="date">
+            <input type="submit" value="Become a Member" class="submitBtn" name="submitBtn">
         </form>
         <table>
             <caption>Anaco's Chamber Membership Info</caption>
@@ -177,6 +178,6 @@
         </div>
     </footer>
     <script src="scripts/main.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/form-date.js"></script>
 </body>
 </html>
