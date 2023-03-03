@@ -1,0 +1,41 @@
+body {
+    background-color: #144367;
+    text-align: center;
+  }
+
+  h1, h2, p {
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  h1 {
+    font-family: 'Lucida Sans', Arial, sans-serif;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    font-family: 'Lucida Sans', Arial, sans-serif;
+  }
+
+  p {
+    font-size: 1.1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+  }
+  
+  section {
+    border: 1px solid #1FC1C3;
+    padding: 10px;
+    margin: 15px 0 15px 0;
+  }
+
+  footer {
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+  }
