@@ -15,3 +15,17 @@ if (!localStorage.getItem("lastVisit")) {
         lastDay.textContent = `Hey, it's been ${calculateDays} days since your last visit. Welcome!`
     }
 }
+
+// function lastVisit() {
+//     var today = new Date();
+//     var lastVisitDate = localStorage.getItem('lastVisitDate');
+    
+//     if (lastVisitDate) {
+//         var daysSinceLastVisit = Math.floor((today - new Date(lastVisitDate)) / (1000 * 60 * 60 * 24));
+//         alert(`Your last visit was daysSinceLastVisit days ago.`);
+//     } else {
+//         alert('Welcome to our website!');
+//     }
+    
+//     localStorage.setItem('lastVisitDate', today);
+// }
