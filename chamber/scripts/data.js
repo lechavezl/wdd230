@@ -1,3 +1,4 @@
+// Display the data from the JSON file
 const businessData = "data/data.json";
 
 async function getBusinessData() {
@@ -43,4 +44,22 @@ const displayBusiness = (businesses) => {
         // Apped all in the section (card) element
         businessesCards.appendChild(card);
     });
+}
+
+// Order the data in a grid or list view
+
+const gridBtn = document.querySelector("#gridView");
+const listBtn = document.querySelector("#listView");
+const display = document.querySelector("div.businesses-cards");
+
+gridBtn.addEventListener("click", () => {
+    display.classList.add("grid");
+    display.classList.remove("list");
+});
+
+listBtn.addEventListener("click", showList);
+
+function showList() {
+    display.classList.add("list");
+    display.classList.remove("grid");
 }

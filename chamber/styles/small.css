@@ -542,9 +542,17 @@ table {
     margin-bottom: 50px;
 }
 
-.thanks-main h2, p {
+/* .thanks-main div h2, p {
     text-align: center;
-    padding: 25px;
+} */
+
+.thanks-main div {
+    text-align: center;
+    padding: 20px;
+}
+
+.thanks-main div h2 {
+    margin-bottom: 15px;
 }
 
 /*--------------- Directory page ---------------*/
@@ -565,9 +573,10 @@ table {
 }
 
 .businesses-cards section {
-    border: 1px solid #e7e7e7;
+    border: 1px solid #1FC1C3;
     text-align: center;
     padding: 10px;
+    background-color: #123C5D;
 }
 
 .businesses-cards img {
@@ -586,3 +595,46 @@ table {
 .businesses-cards a {
     color: #1FC1C3;
 }
+
+/*--------------- Directory page in list view ---------------*/
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.menu button{
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    background-color: #1FC1C3;
+    color: #000000;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list section {
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+}
+
+.list section h3 {
+    margin-bottom: 10px;
+}
+
+.list section > * {
+    margin: 0 1rem;
+}
+
+.list section img {
+    display: none;
+}
+
+/* .list section:nth-child(even) {
+	background-color: #1FC1C3;
+} */
