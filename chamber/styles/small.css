@@ -546,3 +546,43 @@ table {
     text-align: center;
     padding: 25px;
 }
+
+/*--------------- Directory page ---------------*/
+
+.directory-main {
+    display: block;
+}
+
+.directory-main h2 {
+    text-align: center;
+}
+
+.businesses-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.businesses-cards section {
+    border: 1px solid #e7e7e7;
+    text-align: center;
+    padding: 10px;
+}
+
+.businesses-cards img {
+    margin: 10px 0 10px 0;
+}
+
+.businesses-cards h3 {
+    margin-top: 10px;
+}
+
+.businesses-cards p, a {
+    margin: 0;
+    padding: 5.5px;
+}
+
+.businesses-cards a {
+    color: #1FC1C3;
+}
