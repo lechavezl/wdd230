@@ -542,10 +542,6 @@ table {
     margin-bottom: 50px;
 }
 
-/* .thanks-main div h2, p {
-    text-align: center;
-} */
-
 .thanks-main div {
     text-align: center;
     padding: 20px;
@@ -634,7 +630,3 @@ table {
 .list section img {
     display: none;
 }
-
-/* .list section:nth-child(even) {
-	background-color: #1FC1C3;
-} */
