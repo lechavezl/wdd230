@@ -1,0 +1,51 @@
+body {
+    background-color: #144367;
+    color: #FFFFFF;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 1px solid;
+    width: 450px;
+    margin: 50px auto 0 auto;
+}
+
+div {
+    border: 1px solid #FFFFFF;
+    width: 600px;
+    margin: 100px auto 100px auto;
+    padding: 25px;
+    background: radial-gradient(#2b5675, #0d2536);
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    transition: transform .7s ease-in-out;
+}
+
+figure img:hover {
+    transform: rotateY(180deg) scale(1.5);
+}
+
+figure figcaption {
+    transition: transform .3s ease-in-out;
+    padding: 0;
+    margin: 0 auto 0 auto;
+    width: 120px;
+    font-size: 1.2rem;
+}
+
+figure figcaption:hover {
+    transform: scale(1.5);
+}
+
+footer {
+    text-align: center;
+}
