@@ -9,7 +9,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto&display=swap" rel="stylesheet">
-        <link rel="favicon" href="anacos-chamber-fav.ico">
+        <link rel="icon" href="../anacos-chamber-fav.ico">
         <link rel="stylesheet" href="styles/normalize.css">
         <link rel="stylesheet" href="styles/small.css">
         <link rel="stylesheet" href="styles/medium.css">
@@ -97,11 +97,14 @@
         </div>
         <div class="weather">
             <h3>Weather</h3>
-            <p><span id="temperature">33</span>°C</p>
-            <p>Partly Cloudy</p>
+            <figure>
+                <img src="" alt="" id="weather-icon">
+            </figure>
+            <p><span id="temperature"></span> &#8451;;</p>
+            <p id="currentCondition"></p>
             <hr>
-            <p>Wind Speed: <span id="windSpeed">2.5</span> km/h</p>
-            <P>Wind Chill: <span id="windChillValue">N/A</span></P>
+            <p>Wind Speed: <span id="windSpeed"></span> km/h</p>
+            <P>Wind Chill: <span id="windChillValue"></span></P>
 
         </div>
         <div class="join">
@@ -138,6 +141,6 @@
         </div>
     </footer>
     <script src="scripts/main.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
