@@ -133,6 +133,7 @@ nav #currentDate {
     color: #FFFFFF;
     margin-top: 10px;
     margin-bottom: 5px;
+    padding: 5px 0 5px 0;
 }
 
 
@@ -169,7 +170,7 @@ main {
 }
 
 .hero-img picture img {
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
 }
 
@@ -296,12 +297,12 @@ footer div.footer-copyright {
     margin-top: 10px;
 }
 
-.content-1::before, .content-2::before, .content-3::before, .content-4::before {
+.content-1::before, .content-2::before, .content-3::before, .content-4::before, .content-5::before {
     content: "\a";
     white-space: pre;
 }
 
-.bar-1, .bar-2, .bar-3 {
+.bar-1, .bar-2, .bar-3, .bar-4 {
     display: none;
 }
 

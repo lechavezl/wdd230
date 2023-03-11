@@ -154,11 +154,16 @@
         text-align: center;
     }
 
-    .content-1::before, .content-2::before, .content-3::before {
+    .content-1::before, .content-2::before, .content-3::before, .content-4::before {
         content: normal;
     }
 
-    .bar-1, .bar-2, .bar-3 {
+    .content-4 a {
+        margin: 0;
+        padding: 0;
+    }
+
+    .bar-1, .bar-2, .bar-3, .bar-4 {
         display: unset;
     }
 
