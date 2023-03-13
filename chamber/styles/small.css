@@ -14,15 +14,31 @@ nav {
     background-color: #144367;
 }
 
-nav div.navbar {
+.navbar {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     border-bottom: 1px solid #1FC1C3;
 }
 
-.logo-name {
-    display: flex;
-    align-items: center;
+.business-name {
+    text-align: center;
+    margin: 15px 0 0 0;
+    padding: 0;
+    font-size: 1.6rem;
+    grid-column: 1/4;
+}
+
+.logo {
+    padding: 0;
+}
+
+.logo img {
+    grid-column: 1/2;
+    margin-left: 10px;
+}
+
+.logo:visited {
+    color: #FFFFFF;
 }
 
 nav button {
@@ -31,8 +47,25 @@ nav button {
     border: none;
     font-size: 2rem;
     color: #FFFFFF;
-    grid-column: 5/6;
+    grid-column: 3/4;
 }
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2/3;
+    margin-left: 80px;
+}
+
+.social-media a {
+    margin: 0 5px 0 5px;
+}
+
+/* .logo-name a {
+    display: flex;
+    text-align: left;
+} */
 
 nav ul {
     margin: 0;
@@ -82,25 +115,6 @@ nav ul.open {
 }
 #hamburgerBtn.open span:nth-child(2) {
     display: block;
-}
-
-.logo img {
-    grid-column: 1/2;
-}
-
-a.logo:visited {
-    color: #FFFFFF;
-}
-
-nav div.social-media {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    grid-column: 4/5;
-}
-
-.social-media a {
-    margin: 0 5px 0 5px;
 }
 
 header p {
@@ -602,7 +616,7 @@ table {
     margin-top: 10px;
 }
 
-.businesses-cards p, a {
+.businesses-cards > p, a {
     margin: 0;
     padding: 5.5px;
 }
