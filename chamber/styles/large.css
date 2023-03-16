@@ -175,13 +175,23 @@
 
     /*-------------------- Form --------------------*/
 
-    
+    form {
+        width: 40%;
+    }
+
+    textarea {
+        width: 70%;
+    }
 
     /*--------------- Table ---------------*/
 
     table {
-        width: 70%;
-        margin: 30px auto 40px auto;
+        width: 60%;
+    }
+
+    #close-btn {
+        top: 95px;
+        right: 270px;
     }
 
 }
