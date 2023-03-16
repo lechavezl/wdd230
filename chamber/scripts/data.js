@@ -23,9 +23,9 @@ const displayBusiness = (businesses) => {
         let membership = document.createElement("p");
 
         // Set the data on each element
-        logo.setAttribute("src", business.logo);
+        logo.setAttribute("src", "data/images/placeholder-directory.png")
+        logo.setAttribute("data-src", business.logo);
         logo.setAttribute("alt", `Logo of ${business.name}`);
-        logo.setAttribute("loading", "lazy");
         name.textContent = `${business.name}`;
         address.textContent = business.address;
         phone.textContent = business.phone;
@@ -43,6 +43,41 @@ const displayBusiness = (businesses) => {
 
         // Apped all in the section (card) element
         businessesCards.appendChild(card);
+
+        let imagesToLoad = document.querySelectorAll("img[data-src]");
+
+        // Change the placeholder img for the data-src (original img)
+        const loadImages = (image) => {
+            image.setAttribute("src", image.getAttribute("data-src"));
+            image.onload = () => {
+                image.removeAttribute("data-src");
+            };
+        };
+
+        const imgOptions = {
+            threshold: 0,
+            rootMargin: "0px 0px 50px 0px"
+        };
+
+        // Check if the content is in the viewport and execute the actions
+        if ("IntersectionObserver" in window) {
+            const observer = new IntersectionObserver((items, observer) => {
+                items.forEach((item) => {
+                    if (item.isIntersecting) {
+                        loadImages(item.target);
+                        observer.unobserve(item.target);
+                    }
+                });
+            });
+            imagesToLoad.forEach((img) => {
+                observer.observe(img);
+            });
+        } else {
+            imagesToLoad.forEach((img) => {
+                loadImages(img);
+            });
+        }
+
     });
 }
 

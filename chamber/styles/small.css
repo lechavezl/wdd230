@@ -85,6 +85,10 @@ a:visited {
     color: #FFFFFF;
 }
 
+span a:visited {
+    color: #FFFFFF;
+}
+
 nav ul li a:hover {
     background-color: #1FC1C3;
     color: #000000;
@@ -296,7 +300,7 @@ main {
 }
 
 .spotlights a {
-    color: #1FC1C3;
+    color: #FFFFFF;
 }
 
 .spotlight-1, .spotlight-2 {
@@ -356,6 +360,9 @@ footer div.footer-copyright {
     display: none;
 }
 
+.content-4 a {
+    color: #FFFFFF;
+}
 
 /* Discover page */
 
@@ -661,6 +668,15 @@ table {
 
 .businesses-cards a {
     color: #FFFFFF;
+}
+
+.directory-main img[data-src] {
+    filter: blur(0.2em);
+}
+
+.directory-main img {
+    filter: blur(0em);
+    transition: filter 0.5s;
 }
 
 /*--------------- Directory page in list view ---------------*/
