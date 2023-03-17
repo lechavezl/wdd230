@@ -731,7 +731,7 @@ table {
 
 .communication-methods {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 30px;
 }
 
@@ -765,6 +765,11 @@ table {
     font-size: 1.3rem;
 }
 
-form textarea {
-    width: 94%;
+.contact-main form textarea {
+    width: 320px;
+}
+
+.contact-main form {
+    width: 360px;
+    margin: 0 auto 0 auto;
 }
