@@ -191,5 +191,11 @@
 
     /*-------------------- Contact Page --------------------*/
     
+    .communication-methods div {
+        width: 350px;
+        height: 350px;
+        padding: 0;
+        border-radius: 50%;
+    }
 
 }
