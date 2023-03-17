@@ -24,7 +24,6 @@ nav {
     text-align: center;
     margin: 15px 0 0 0;
     padding: 0;
-    font-size: 1.6rem;
     grid-column: 1/4;
 }
 
@@ -42,7 +41,6 @@ nav {
 }
 
 nav button {
-    margin: .2rem 2vw;
     background-color: transparent;
     border: none;
     font-size: 2rem;
@@ -61,11 +59,6 @@ nav button {
 .social-media a {
     margin: 0 5px 0 5px;
 }
-
-/* .logo-name a {
-    display: flex;
-    text-align: left;
-} */
 
 nav ul {
     margin: 0;
@@ -86,6 +79,10 @@ a:visited {
 }
 
 span a:visited {
+    color: #FFFFFF;
+}
+
+img a:visited {
     color: #FFFFFF;
 }
 
@@ -184,11 +181,10 @@ main {
     grid-column: 1/2;
     grid-row: 1/2;
     position: relative;
-    /* height: 150px; */
 }
 
 .hero-img picture img {
-    /* width: 100%; */
+    width: 100%;
     text-align: center;
 }
 
@@ -205,7 +201,7 @@ main {
     position: absolute;
     color: white;
     bottom: 20px;
-    right: 10px;
+    right: 70px;
     border: 1px solid #144367;
     background-color: #1FC1C3;
     border-radius: 13px;
