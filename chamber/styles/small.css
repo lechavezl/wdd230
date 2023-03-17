@@ -717,3 +717,54 @@ table {
 .list section img {
     display: none;
 }
+
+/*-------------------- Contact Page --------------------*/
+
+.contact-main {
+    display: block;
+}
+
+.contact-main h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.communication-methods {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.communication-methods div {
+    border: 1px solid #1FC1C3;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+.communication-methods p {
+    line-height: 25px;
+}
+
+.contact-main hr {
+    transform: rotateY(180deg);
+}
+
+.contact-main hr {
+    display: none;
+}
+
+.communication-methods div > hr {
+    display: block;
+    width: 80%;
+    margin: 6px auto 15px auto;
+}
+
+.contact-main h2:nth-child(3) {
+    margin-top: 40px;
+    font-size: 1.3rem;
+}
+
+form textarea {
+    width: 94%;
+}

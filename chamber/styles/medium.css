@@ -503,6 +503,15 @@
         margin: auto 0 auto 0;
     }
 
+    /*-------------------- Contact Page --------------------*/
 
+    .contact-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .contact-main h2:nth-child() {
+
+    }
 
 }
