@@ -53,7 +53,7 @@ nav button {
     justify-content: center;
     align-items: center;
     grid-column: 2/3;
-    margin-left: 80px;
+    margin-left: 40px;
 }
 
 .social-media a {
@@ -98,7 +98,7 @@ nav ul {
 nav ul.open {
     display: block;
     grid-column: 1/6;
-    grid-row: 2/3;
+    grid-row: 3/4;
     text-align: center;
     padding: 5px;
     font-size: 1.1em;
@@ -549,7 +549,7 @@ form input.submitBtn {
     border-radius: 1rem;
     padding: 0.75rem 1.5rem;
     margin: 0 0 2rem 2%;
-    width: 35%;
+    width: 46%;
     max-width: 20rem;
     cursor: pointer;
 }
@@ -577,6 +577,10 @@ textarea {
 /*--------------- Table ---------------*/
 
 table {
+    display: none;
+}
+
+#close-btn {
     display: none;
 }
 

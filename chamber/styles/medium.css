@@ -346,10 +346,6 @@
 
     /*-------------------- Join Page --------------------*/
 
-    /* .main-join {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    } */
 
     /*--------------- Form ---------------*/
 
@@ -414,7 +410,7 @@
         width: 650px;
         border-top: none;
         border-collapse: collapse;
-        box-shadow: 0 0 7px #5e5e5e;
+        box-shadow: 10px 10px 20px #000000;
         background: linear-gradient(45deg, #0f3552, #1FC1C3);
     }
 
