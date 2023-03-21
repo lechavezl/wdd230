@@ -101,9 +101,9 @@
         margin: 0;
     }
 
-    .spotlight {
+    /* .spotlight {
         height: 100%;
-    }
+    } */
 
     .weather {
         grid-column: 1/2;

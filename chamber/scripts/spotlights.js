@@ -40,7 +40,6 @@ const displayBusiness = (businesses) => {
                 const busAddress = document.createElement("p");
                 const busPhone = document.createElement("p");
                 const busWebsite = document.createElement("a");
-                const hr = document.createElement("hr");
 
                 busName.textContent = member.name;
                 busLogo.setAttribute("src", member.logo);
@@ -57,7 +56,6 @@ const displayBusiness = (businesses) => {
                 spot.appendChild(busAddress);
                 spot.appendChild(busPhone);
                 spot.appendChild(busWebsite);
-                spot.appendChild(hr);
             }
         });
     }

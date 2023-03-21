@@ -291,13 +291,10 @@ main {
 .spotlight {
     text-align: center;
     padding: 5px 0 5px 0;
-    background-color: #144367;
-    margin: 0;
-    padding: 0;
-}
-
-.spotlights div:nth-child(3) {
-    border: none;
+    border: 1px solid #1FC1C3;
+    margin: 0 auto 0 auto;
+    padding: 5px;
+    width: 95%;
 }
 
 .spotlights img {
