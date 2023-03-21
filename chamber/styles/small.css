@@ -175,6 +175,10 @@ main {
     display: none;
 }
 
+.join p:nth-child(2) {
+    margin-bottom: 10px;
+}
+
 .spotlight:nth-child(3) {
     display: none;
 }
@@ -233,6 +237,15 @@ main {
     padding: 10px;
 }
 
+.event p:nth-child(1) {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.event p:nth-child(2) {
+    margin-bottom: 25px;
+}
+
 /*-------------- Weather section --------------*/
 
 .weather {
@@ -272,11 +285,15 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 8px;
 }
 
 .spotlight {
     text-align: center;
     padding: 5px 0 5px 0;
+    background-color: #144367;
+    margin: 0;
+    padding: 0;
 }
 
 .spotlights div:nth-child(3) {
@@ -288,7 +305,11 @@ main {
 }
 
 .spotlight p {
-    margin-bottom: 3px;
+    margin-bottom: 10px;
+}
+
+.spotlight h3 {
+    margin: 10px 0 5px 0;
 }
 
 .spotlights a {

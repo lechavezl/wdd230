@@ -96,22 +96,13 @@
     .spotlights {
         grid-column: 3/4;
         grid-row: 1/4;
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
         margin: 0;
     }
 
-    .spotlights div {
+    .spotlight {
         height: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 10px 0 10px 0;
-    }
-
-    .spotlight-3 {
-        text-align: center;
-        background-color: #0f3552;
-        padding: 10px;
     }
 
     .weather {

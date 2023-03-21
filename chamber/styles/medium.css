@@ -72,10 +72,9 @@
     .spotlights {
         grid-column: 1/3;
         grid-row: 3/4;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px
     }
 
     .join {
@@ -404,6 +403,10 @@
         border-collapse: collapse;
         box-shadow: 10px 10px 20px #000000;
         background: linear-gradient(45deg, #0f3552, #1FC1C3);
+    }
+
+    table thead tr th:nth-child(1) {
+        color: transparent;
     }
 
     #close-btn {
