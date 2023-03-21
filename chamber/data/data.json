@@ -6,7 +6,7 @@
             "phone": "(+58) 412-192-9844",
             "website": "https://www.facebook.com/profile.php?id=100089832190929",
             "logo": "data/images/LECHNNOBY.png",
-            "membership": "Free"
+            "membership": "Gold"
         },
         {
             "name": "Words and Contents",
@@ -22,7 +22,7 @@
             "phone": "(+58) 414-253-9844",
             "website": "https://www.instagram.com/completatutiempo/",
             "logo": "data/images/completatutiempo.PNG",
-            "membership": "Gold"
+            "membership": "Silver"
         },
         {
             "name": "Inspirate Business",
@@ -46,7 +46,7 @@
             "phone": "(+58) 412-185-7368",
             "website": "https://www.instagram.com/ventasanacoca/",
             "logo": "data/images/ventas-anaco.PNG",
-            "membership": "Silver"
+            "membership": "Gold"
         },
         {
             "name": "Xbosservices",

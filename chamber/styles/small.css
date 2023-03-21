@@ -29,6 +29,7 @@ nav {
 
 .logo {
     padding: 0;
+    color: #FFFFFF;
 }
 
 .logo img {
@@ -58,6 +59,7 @@ nav button {
 
 .social-media a {
     margin: 0 5px 0 5px;
+    color: #FFFFFF;
 }
 
 nav ul {
@@ -173,7 +175,7 @@ main {
     display: none;
 }
 
-.spotlight-3 {
+.spotlight:nth-child(3) {
     display: none;
 }
 
@@ -270,12 +272,11 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* padding: 10px 0 10px 0; */
 }
 
-.spotlights div {
-    border-bottom: 1px solid #e7e7e7;
-    /* background: radial-gradient(#ffffff54, #144367); */
+.spotlight {
+    text-align: center;
+    padding: 5px 0 5px 0;
 }
 
 .spotlights div:nth-child(3) {
@@ -286,24 +287,12 @@ main {
     padding: 5px 0 5px 0;
 }
 
-.spotlights hr {
-    width: 90%;
-    margin: 5px auto 5px auto;
-}
-
-.spotlights p {
+.spotlight p {
     margin-bottom: 3px;
 }
 
 .spotlights a {
     color: #FFFFFF;
-}
-
-.spotlight-1, .spotlight-2 {
-    text-align: center;
-    /* width: 280px; */
-    background-color: #0f3552;
-    padding: 10px;
 }
 
 main p {
@@ -321,6 +310,10 @@ footer {
 
 footer h2 {
     font-size: 1.7em;
+    color: #FFFFFF;
+}
+
+footer .info a{
     color: #FFFFFF;
 }
 
