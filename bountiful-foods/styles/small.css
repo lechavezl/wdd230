@@ -1,0 +1,156 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #81B549;
+}
+
+/*--------------- Header ---------------*/
+
+.nav-social-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    padding: 10px 0 10px 0;
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.logo-container img {
+    width: 250px;
+    height: 250px;
+}
+
+.social-media {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: auto auto auto auto;
+    text-align: center;
+}
+
+.social-media img {
+    width: 35px;
+    height: 35px;
+}
+
+.social-media a {
+    text-decoration: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+    grid-column: 1/4;
+    margin: 20px auto 0 auto;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+}
+
+nav ul li a:visited {
+    color: #000000;
+}
+
+/*----- Toggle Menu -----*/
+
+#hamburgerBtn {
+    width: 50px;
+    height: 50px;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin: 0 auto 0 auto;
+}
+
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}
+
+/*--------------- Main ---------------*/
+
+main {
+    grid-template-columns: 1fr;
+    padding: 5px;
+}
+
+main div {
+    margin: 60px 0 60px 0;
+}
+
+.hero-container img {
+    width: 100%;
+}
+
+.intro-section img {
+    width: 100%;
+}
+
+.intro-section p {
+    margin: 50px 0 15px 0;
+    text-align: justify;
+}
+
+.make-drink {
+    border: 2px solid #000000;
+    text-align: center;
+    padding: 20px 0 15px 0;
+}
+
+.make-drink img {
+    width: 90%;
+}
+
+.weather div {
+    border: 1px solid #000000;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.summary-section {
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+.summary-section div {
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+.summary img {
+    width: 100%;
+}
+
+
+/*--------------- Footer ---------------*/
+
+.logo-footer
+
+.logo-footer img {
+    width: 250px;
+    height: 250px;
+}

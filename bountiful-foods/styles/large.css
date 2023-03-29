@@ -1,0 +1,38 @@
+@media only screen and (min-width: 64em) {
+    
+    /*--------------- Main ---------------*/
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+
+    main div {
+        margin: 30px;
+        border: 1px solid green;
+    }
+
+    .hero-container {
+        padding: 0 30px 0 30px;
+        grid-column: 1/4;
+    }
+
+    .intro-section {
+        grid-column: 1/4;
+        /* background-color: green; */
+        padding: 30px;
+    }
+
+    .make-drink {
+        grid-column: 2/3;
+    }
+
+    .weather {
+        grid-column: 1/4;
+        justify-content: space-around;
+    }
+
+    .summary-section {
+        grid-column: 1/4;
+    }
+}
