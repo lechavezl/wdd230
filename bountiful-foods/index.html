@@ -18,7 +18,7 @@
     <header>
         <nav>
             <div class="logo-container">
-                <img src="images/bountiful-foods.png" alt="Bounfiful Food's Logo">
+                <img src="images/bountiful-foods-transparent.png" alt="Bounfiful Food's Logo">
             </div>
             <div class="nav-social-container">
                 <ul id="navList">
@@ -37,31 +37,62 @@
     </header>
     <main>
         <div class="hero-container">
-            <img src="https://cdn.lorem.space/images/game/.cache/2000x2000/devil-may-cry-5.jpg" alt="" class="hero-img">
+            <picture>
+                <source media="(max-width: 639px)"
+                srcset="images/hero-image-small.jpg">
+                <source media="(max-width: 1023px)"
+                srcset="images/hero-image-medium.jpg">
+                <img class="hero-img" src="images/hero-image-large.jpg" alt="Healthy food dish as hero image of the website home page.">
+            </picture>
         </div>
         <div class="intro-section">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque distinctio molestias laudantium ut enim est! Ullam fugit optio nesciunt, culpa obcaecati et ipsam, laborum cupiditate dolor at alias ab perferendis!</p>
-            <img src="https://cdn.lorem.space/images/game/.cache/500x500/dark-souls.jpg" alt="">
+            <img class="home-img" src="images/salmon-optm.jpg" alt="Dish of Salmon with teriyaki sauce, on a plate and chopsticks on the side.">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis amet laborum error dolor et! Veniam excepturi facilis officiis ut recusandae quia quas autem, quae nulla dicta numquam! Quae, odit debitis.</p>
-            <img src="https://cdn.lorem.space/images/game/.cache/500x500/dark-souls.jpg" alt="">
+            <img class="home-img" src="images/cut.fruits.jpg" alt="Cut fruits and liquid flying in the air.">
         </div>
         <div class="make-drink">
-            <img src="https://cdn.lorem.space/images/game/.cache/500x500/dark-souls.jpg" alt="">
-            <p>Make your own fruit drink mix!</p>
+            <img class="home-img" src="images/fruit_drink_optm.jpg" alt="Glass overflowing with juice.">
+            <h2>Make your own fruit drink mix!</h2>
             <button>I want a drink</button>
         </div>
         <div class="weather">
-            <div class="currentWeather">Current Weather</div>
-            <div class="weather-1">Weather tomorrow</div>
-            <div class="weather-2">Weather the day after tomorrow</div>
+            <div class="current-weather">
+                <h3>Current Weather</h3>
+                <p class="curr-temp"></p>
+                <p class="curr-humidity"></p>
+                <img class="curr-icon" src="" alt="Weather's icon">
+                <p class="curr-desc"></p>
+            </div>
+            <div class="weather-1">
+                <h3>Weather Forecast 1</h3>
+                <p class="temp-day1"></p>
+                <p class="humidity-day1"></p>
+                <img class="icon-day1" src="" alt="Weather's icon">
+                <p class="desc-day1"></p>
+            </div>
+            <div class="weather-2">
+                <h3>Weather Forecast 2</h3>
+                <p class="temp-day2"></p>
+                <p class="humidity-day2"></p>
+                <img class="icon-day2" src="" alt="Weather's icon">
+                <p class="desc-day2"></p>
+            </div>
+            <div class="weather-3">
+                <h3>Weather Forecast 3</h3>
+                <p class="temp-day3"></p>
+                <p class="humidity-day3"></p>
+                <img class="icon-day3" src="" alt="Weather's icon">
+                <p class="desc-day3"></p>
+            </div>
         </div>
         <div class="summary-section">
             <div class="summary">
-                <img src="https://cdn.lorem.space/images/game/.cache/500x500/dark-souls.jpg" alt="">
+                <img src="images/laguna-beach-optm.jpg" alt="Beautiful landscape of the famous Laguna Beach.">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ullam dolorum nesciunt velit corporis, aspernatur sed voluptatem iusto minus, quibusdam molestias in totam dignissimos quidem. Provident saepe est tempora ducimus!</p>
             </div>
             <div class="summary">
-                <img src="https://cdn.lorem.space/images/game/.cache/500x500/dark-souls.jpg" alt="">
+                <img src="images/malibu-beach-optm.jpg" alt="Beautiful landscape of the famous Malibu Beach.">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque omnis veritatis dolorum qui error? Quaerat repellat et accusamus consectetur aliquid nam libero soluta exercitationem nesciunt expedita? Praesentium dignissimos fugit voluptatem!</p>
             </div>
         </div>
@@ -70,5 +101,6 @@
         <p><span>&#169;</span> Bountiful Foods 2023</p>
     </footer>
     <script src="scripts/main.js"></script>
+    <script src="scripts/weather-forecast.js"></script>
 </body>
 </html>
