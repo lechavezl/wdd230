@@ -22,8 +22,8 @@
             </div>
             <div class="nav-social-container">
                 <ul id="navList">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Fresh</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fresh.html">Fresh</a></li>
                     <li><a href="#">About</a></li>
                 </ul>
                 <div class="social-media">
@@ -48,37 +48,39 @@
         <div class="intro-section">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque distinctio molestias laudantium ut enim est! Ullam fugit optio nesciunt, culpa obcaecati et ipsam, laborum cupiditate dolor at alias ab perferendis!</p>
             <img class="home-img" src="images/salmon-optm.jpg" alt="Dish of Salmon with teriyaki sauce, on a plate and chopsticks on the side.">
+            <hr>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis amet laborum error dolor et! Veniam excepturi facilis officiis ut recusandae quia quas autem, quae nulla dicta numquam! Quae, odit debitis.</p>
             <img class="home-img" src="images/cut.fruits.jpg" alt="Cut fruits and liquid flying in the air.">
+            <hr>
         </div>
         <div class="make-drink">
             <img class="home-img" src="images/fruit_drink_optm.jpg" alt="Glass overflowing with juice.">
             <h2>Make your own fruit drink mix!</h2>
-            <button>I want a drink</button>
+            <button class="drink-button"><strong>I want a drink</strong></button>
         </div>
-        <div class="weather">
-            <div class="current-weather">
+        <div class="weather-container">
+            <div class="weather">
                 <h3>Current Weather</h3>
                 <p class="curr-temp"></p>
                 <p class="curr-humidity"></p>
                 <img class="curr-icon" src="" alt="Weather's icon">
                 <p class="curr-desc"></p>
             </div>
-            <div class="weather-1">
+            <div class="weather">
                 <h3>Weather Forecast 1</h3>
                 <p class="temp-day1"></p>
                 <p class="humidity-day1"></p>
                 <img class="icon-day1" src="" alt="Weather's icon">
                 <p class="desc-day1"></p>
             </div>
-            <div class="weather-2">
+            <div class="weather">
                 <h3>Weather Forecast 2</h3>
                 <p class="temp-day2"></p>
                 <p class="humidity-day2"></p>
                 <img class="icon-day2" src="" alt="Weather's icon">
                 <p class="desc-day2"></p>
             </div>
-            <div class="weather-3">
+            <div class="weather">
                 <h3>Weather Forecast 3</h3>
                 <p class="temp-day3"></p>
                 <p class="humidity-day3"></p>
@@ -87,18 +89,24 @@
             </div>
         </div>
         <div class="summary-section">
-            <div class="summary">
-                <img src="images/laguna-beach-optm.jpg" alt="Beautiful landscape of the famous Laguna Beach.">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ullam dolorum nesciunt velit corporis, aspernatur sed voluptatem iusto minus, quibusdam molestias in totam dignissimos quidem. Provident saepe est tempora ducimus!</p>
+            <div class="summary-box">
+                <div class="summary">
+                    <img src="images/laguna-beach-optm.jpg" alt="Beautiful landscape of the famous Laguna Beach.">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ullam dolorum nesciunt velit corporis, aspernatur sed voluptatem iusto minus, quibusdam molestias in totam dignissimos quidem. Provident saepe est tempora ducimus!</p>
+                </div>
             </div>
-            <div class="summary">
-                <img src="images/malibu-beach-optm.jpg" alt="Beautiful landscape of the famous Malibu Beach.">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque omnis veritatis dolorum qui error? Quaerat repellat et accusamus consectetur aliquid nam libero soluta exercitationem nesciunt expedita? Praesentium dignissimos fugit voluptatem!</p>
+            <div class="summary-box">
+                <div class="summary">
+                    <img src="images/malibu-beach-optm.jpg" alt="Beautiful landscape of the famous Malibu Beach.">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque omnis veritatis dolorum qui error? Quaerat repellat et accusamus consectetur aliquid nam libero soluta exercitationem nesciunt expedita? Praesentium dignissimos fugit voluptatem!</p>
+                </div>
             </div>
         </div>
     </main>
     <footer>
-        <p><span>&#169;</span> Bountiful Foods 2023</p>
+        <p><span class="copy">&#169;</span> Bountiful Foods 2023 <span class="bar-1"> | </span><span>Luis Chavez</span><span class="bar-2"> | </span> <span>WDD-230</span></p>
+        <img src="images/bountiful-foods-transparent.png" alt="Bountiful Food's logo">
+        <p id="lastModified"></p>
     </footer>
     <script src="scripts/main.js"></script>
     <script src="scripts/weather-forecast.js"></script>

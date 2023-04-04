@@ -6,9 +6,9 @@ async function fetchForecast() {
         if (response.ok) {
             const data = await response.json();
             showForecast(data);
-            console.log(data.list[0].weather[0].icon)
+            console.log(data.list)
             console.log(data.list[1])
-            console.log(data.list[2])
+            console.log(data.list[3])
         } else {
             throw Error(await response.text());
         }
@@ -42,27 +42,44 @@ function showForecast(weatherData) {
 
     document.querySelector(".curr-temp").textContent = `${weatherData.list[0].main.temp.toFixed(0)}`;
     document.querySelector(".curr-humidity").textContent = `${weatherData.list[0].main.humidity}%`;
-    document.querySelector(".curr-icon").setAttribute = ("src", `https://openweathermap.org/img/wn/${weatherData.list[0].weather[0].icon}.png`);
+    document.querySelector(".curr-icon").src =  `https://openweathermap.org/img/w/${weatherData.list[0].weather[0].icon}.png`;
     const currCondition = weatherData.list[0].weather[0].description;
-    const currUpper = currCondition.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+    document.querySelector(".curr-desc").textContent = currCondition.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 
-    const TemperatureD1 = weatherData.list[1].main.temp.toFixed(0);
-    const HumidityD1 = weatherData.list[1].main.humidity;
+    document.querySelector(".temp-day1").textContent = weatherData.list[1].main.temp.toFixed(0);
+    document.querySelector(".humidity-day1").textContent = `${weatherData.list[1].main.humidity}%`;
+    document.querySelector(".icon-day1").src = `https://openweathermap.org/img/w/${weatherData.list[1].weather[0].icon}.png`;
     const ConditionD1 = weatherData.list[1].weather[0].description;
-    const UpperD1 = ConditionD1.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
-    const IconD1 = weatherData.list[1].weather[0].icon;
+    document.querySelector(".desc-day1").textContent = ConditionD1.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 
-    const TemperatureD2 = weatherData.list[2].main.temp.toFixed(0);
-    const HumidityD2 = weatherData.list[2].main.humidity;
+    document.querySelector(".temp-day2").textContent = weatherData.list[2].main.temp.toFixed(0);
+    document.querySelector(".humidity-day2").textContent = `${weatherData.list[2].main.humidity}%`;
+    document.querySelector(".icon-day2").src = `https://openweathermap.org/img/w/${weatherData.list[2].weather[0].icon}.png`;
     const ConditionD2 = weatherData.list[2].weather[0].description;
-    const UpperD2 = ConditionD2.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
-    const IconD2 = weatherData.list[2].weather[0].icon;
+    document.querySelector(".desc-day2").textContent = ConditionD2.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 
-    const TemperatureD3 = weatherData.list[3].main.temp.toFixed(0);
-    const HumidityD3 = weatherData.list[3].main.humidity;
+    document.querySelector(".temp-day3").textContent = weatherData.list[3].main.temp.toFixed(0);
+    document.querySelector(".humidity-day3").textContent = `${weatherData.list[3].main.humidity}%`;
+    document.querySelector(".icon-day3").src = `https://openweathermap.org/img/w/${weatherData.list[3].weather[0].icon}.png`;
     const ConditionD3 = weatherData.list[3].weather[0].description;
-    const UpperD3 = ConditionD3.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
-    const IconD3 = weatherData.list[3].weather[0].icon;
+    document.querySelector(".desc-day3").textContent = ConditionD3.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+
+
+//     const apiKey = 'your_api_key';
+// const url = `https://api.openweathermap.org/data/2.5/forecast?q=your_city&appid=${apiKey}`;
+
+// fetch(url)
+//   .then(response => response.json())
+//   .then(data => {
+//     const forecast = data.list.slice(0, 4); // extract the weather data for the next 4 days
+//     const temperatures = forecast.map(item => item.main.temp); // extract the temperatures
+
+//     const temperatureElements = document.querySelectorAll('.temperature');
+//     temperatureElements.forEach((element, index) => {
+//       element.textContent = `${Math.round(temperatures[index] - 273.15)} °C`; // display the temperatures in Celsius
+//     });
+//   })
+//   .catch(error => console.error(error));
 
 
 }

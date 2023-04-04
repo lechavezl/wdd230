@@ -10,3 +10,8 @@ function toggleMenu () {
 
 const hamBtn = document.getElementById("hamburgerBtn");
 hamBtn.onclick = toggleMenu;
+
+// Show the document last modified at the bottom of the page
+
+let lastModif = document.lastModified;
+document.querySelector("#lastModified").innerHTML = `Last Modification: ${lastModif}`;

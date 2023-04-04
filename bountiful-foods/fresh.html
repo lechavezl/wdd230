@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Fresh | Bountiful Foods</title>
+    <meta name="description" content="Fresh is a page where customers can create a special drink with different flavors and extra preparation instructions to suit their tastes.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="images/bountiful-foods-transparent.png" alt="Bounfiful Food's Logo">
+            </div>
+            <div class="nav-social-container">
+                <ul id="navList">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fresh.html">Fresh</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.png" alt="Linkedin's icon"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" alt="Instagram's icon"></a>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="Facebook's icon"></a>
+                </div>
+                <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            </div>
+        </nav>
+    </header>
+    <main class="fresh-main">
+        <h1>Create your own juice to your preference!</h1>
+        <form method="get">
+            <label>First Name<input type="text" name="fname" required></label>
+            <label>Email<input type="email" name="email" required></label>
+            <label>Phone Number<input type="tel" name="phone" required></label>
+            <select name="flavor-1">
+                <option selected="true" disabled="disable">Please select a flavor</option>
+            </select>
+            <select name="flavor-2">
+                <option selected="true" disabled="disable">Please select a flavor</option>
+            </select>
+            <select name="flavor-3">
+                <option selected="true" disabled="disable">Please select a flavor</option>
+            </select>
+            <label>Tell us your special instructions<br><textarea name="description"></textarea></label>
+            <input type="submit" value="Become a Member" class="submitBtn" name="submitBtn">
+        </form>
+        <p id="formSubmitted"></p>
+    </main>
+    <footer>
+        <p><span class="copy">&#169;</span> Bountiful Foods 2023 <span class="bar-1"> | </span><span>Luis Chavez</span><span class="bar-2"> | </span> <span>WDD-230</span></p>
+        <img src="images/bountiful-foods-transparent.png" alt="Bountiful Food's logo">
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

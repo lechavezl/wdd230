@@ -2,43 +2,52 @@
     
     /*--------------- Main ---------------*/
 
-    main {
+    /* main {
         display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
-    }
+        grid-template-columns: 1fr 1fr 1fr;
+    } */
 
-    main div {
+    main > div {
         margin: 30px;
         /* border: 1px solid green;
         background-color: ; */
     }
 
     .hero-container {
-        grid-column: 1/4;
+        /* grid-column: 1/4; */
         margin: 0 auto 0 auto;
     }
 
     .intro-section {
-        grid-column: 1/4;
+        /* grid-column: 1/4; */
         /* background-color: green; */
         padding: 30px;
     }
 
-    .make-drink {
+    /* .make-drink {
         grid-column: 2/3;
-    }
+        padding: 40px 0 40px 0;
+        margin: 0;
+        padding: 0;
+    } */
 
-    .weather {
-        grid-column: 1/4;
+    .weather-container {
+        /* grid-column: 1/4; */
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
-    .weather div {
+    .weather {
         margin: 0 10px 0 10px;
     }
 
-    .summary-section {
+    /* .summary-section {
         grid-column: 1/4;
+    } */
+
+    /*--------------- Fresh Page ---------------*/
+
+    .fresh-main form {
+        width: 30%;
     }
 }
