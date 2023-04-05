@@ -24,7 +24,7 @@
                 <ul id="navList">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="fresh.html">Fresh</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="about-us.html">About</a></li>
                 </ul>
                 <div class="social-media">
                     <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.png" alt="Linkedin's icon"></a>
@@ -39,8 +39,8 @@
         <h1>Create your own juice to your preference!</h1>
         <form method="get">
             <label>First Name<input type="text" name="fname" required></label>
-            <label>Email<input type="email" name="email" required></label>
-            <label>Phone Number<input type="tel" name="phone" required></label>
+            <label>Email<input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></label>
+            <label>Phone Number<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></label>
             <select name="flavor-1">
                 <option selected="true" disabled="disable">Please select a flavor</option>
             </select>

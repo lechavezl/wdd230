@@ -50,4 +50,14 @@
     .fresh-main form {
         width: 30%;
     }
+
+    /*--------------- About Us Page ---------------*/
+
+    .contact-1, .contact-3 {
+        margin: 40px 400px 40px 0;
+    }
+
+    .contact-2 {
+        margin: 40px 0 40px 400px;
+    }
 }
