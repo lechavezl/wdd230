@@ -41,17 +41,11 @@
             <label>First Name<input type="text" name="fname" required></label>
             <label>Email<input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></label>
             <label>Phone Number<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></label>
-            <select id="flavor-1" name="flavor-1">
-                <option selected="true" disabled="disable">Please select a flavor</option>
-            </select>
-            <select id="flavor-2" name="flavor-2">
-                <!-- <option selected="true" disabled="disable">Please select a flavor</option> -->
-            </select>
-            <select id="flavor-3" name="flavor-3">
-                <!-- <option selected="true" disabled="disable">Please select a flavor</option> -->
-            </select>
+            <label><select id="flavor-1" name="flavor-1"></select></label>
+            <label><select id="flavor-2" name="flavor-2"></select></label>
+            <label><select id="flavor-3" name="flavor-3"></select></label>
             <label>Tell us your special instructions<br><textarea name="description"></textarea></label>
-            <input type="submit" value="Become a Member" class="submitBtn" name="submitBtn">
+            <input type="submit" value="Order My Drink" class="submitBtn" name="submitBtn">
         </form>
         <div id="submitted-output"></div>
     </main>

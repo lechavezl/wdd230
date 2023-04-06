@@ -2,9 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    /* background-color: #81B549; */
     background: radial-gradient(#81B549, #45AB5B, #81B549);
-    /* background: linear-gradient(#81B549, #45AB5B, #628212); */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,7 +24,6 @@ p, li, a {
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
     padding: 10px 0 10px 0;
-    /* background-color: #00787B; */
 }
 
 .logo-container {
@@ -124,7 +121,7 @@ hr {
 
 .intro-section p {
     margin: 50px 0 15px 0;
-    text-align: justify;
+    text-align: left;
 }
 
 .make-drink {
@@ -135,10 +132,14 @@ hr {
 }
 
 .drink-button {
-    padding: 8px;
     border: 2px solid #000000;
     border-radius: 10px;
     background-color: #81B549;
+}
+
+.drink-button a {
+    padding: 8px;
+    display: block;
 }
 
 .weather-container div {
@@ -152,7 +153,6 @@ hr {
     border: 1px solid #000000;
     padding: 15px;
     background-color: #45AB5B;
-    /* height: 100%; */
 }
 
 .summary img {
@@ -174,7 +174,7 @@ hr {
     border: 2px solid #000000;
     box-shadow: 14px 14px 60px #3ebb44, -14px -14px 60px #3ebb44;
     border-radius: 35px;
-    color: #FFFFFF;
+    color: #000000;
     padding: 15px 15px;
     font-size: 1.2rem;
     background-color: #45AB5B99;
@@ -185,6 +185,8 @@ hr {
     margin: 8px 0 20px 0;
 }
 
+
+
 .fresh-main form input {
     padding: .65rem;
     border-radius: 10px;
@@ -194,6 +196,7 @@ hr {
     padding: .55rem;
     border: 1px solid #000000;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .fresh-main form textarea {
@@ -206,7 +209,9 @@ hr {
 
 .submitBtn {
     background-color: #45AB5B;
-    color: #FFFFFF;
+    color: #000000;
+    border: 2px solid #000000;
+    cursor: pointer;
 }
 
 #submitted-output {
@@ -248,7 +253,7 @@ hr {
 }
 
 .info-container div p {
-    text-align: justify;
+    text-align: left;
 }
 
 .contact-1, .contact-2, .contact-3 {

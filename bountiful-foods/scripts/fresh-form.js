@@ -26,6 +26,7 @@ function buttonOutput() {
     const fruit1 = document.querySelector('#flavor-1').value;
     const fruit2 = document.querySelector('#flavor-2').value;
     const fruit3 = document.querySelector('#flavor-3').value;
+    const indications = document.querySelector("textarea").value;
     const date = new Date().toLocaleDateString();
 
     const message = document.createElement("h2");
@@ -35,6 +36,7 @@ function buttonOutput() {
     const flavor1 = document.createElement("p");
     const flavor2 = document.createElement("p");
     const flavor3 = document.createElement("p");
+    const textarea = document.createElement("p");
     const dateOrdered = document.createElement("p");
 
     message.textContent = `Your order has been submitted!`
@@ -45,6 +47,7 @@ function buttonOutput() {
     flavor2.textContent = `Flavor 2: ${fruit2}`;
     flavor3.textContent = `Flavor 3: ${fruit3}`;
     dateOrdered.textContent = `Date: ${date}`;
+    textarea.textContent = `Special Instructios: ${indications}`
 
     output.appendChild(message);
     output.appendChild(fName);
@@ -53,6 +56,7 @@ function buttonOutput() {
     output.appendChild(flavor1);
     output.appendChild(flavor2);
     output.appendChild(flavor3);
+    output.appendChild(textarea);
     output.appendChild(dateOrdered);
     output.style.display = "block";
 };
