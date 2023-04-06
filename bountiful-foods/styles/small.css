@@ -212,6 +212,19 @@ hr {
     color: #FFFFFF;
 }
 
+#submitted-output {
+    display: none;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 50px auto;
+    background-color: #45AB5B;
+}
+
+#submitted-output h2 {
+    border-bottom: 1px solid #000000;
+}
+
 /*--------------- About Us Page ---------------*/
 
 .about-main {

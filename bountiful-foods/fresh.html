@@ -41,19 +41,19 @@
             <label>First Name<input type="text" name="fname" required></label>
             <label>Email<input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></label>
             <label>Phone Number<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></label>
-            <select name="flavor-1">
+            <select id="flavor-1" name="flavor-1">
                 <option selected="true" disabled="disable">Please select a flavor</option>
             </select>
-            <select name="flavor-2">
-                <option selected="true" disabled="disable">Please select a flavor</option>
+            <select id="flavor-2" name="flavor-2">
+                <!-- <option selected="true" disabled="disable">Please select a flavor</option> -->
             </select>
-            <select name="flavor-3">
-                <option selected="true" disabled="disable">Please select a flavor</option>
+            <select id="flavor-3" name="flavor-3">
+                <!-- <option selected="true" disabled="disable">Please select a flavor</option> -->
             </select>
             <label>Tell us your special instructions<br><textarea name="description"></textarea></label>
             <input type="submit" value="Become a Member" class="submitBtn" name="submitBtn">
         </form>
-        <p id="formSubmitted"></p>
+        <div id="submitted-output"></div>
     </main>
     <footer>
         <p><span class="copy">&#169;</span> Bountiful Foods 2023 <span class="bar-1"> | </span><span>Luis Chavez</span><span class="bar-2"> | </span> <span>WDD-230</span></p>
@@ -61,5 +61,6 @@
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/main.js"></script>
+    <script src="scripts/fresh-form.js"></script>
 </body>
 </html>

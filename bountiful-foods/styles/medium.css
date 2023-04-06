@@ -166,6 +166,10 @@
         margin: 0 auto 0 auto;
     }
 
+    #submitted-output {
+        width: 60%;
+    }
+
     /*--------------- About Us Page ---------------*/
 
     .about-main {

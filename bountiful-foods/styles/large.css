@@ -51,6 +51,10 @@
         width: 30%;
     }
 
+    #submitted-output {
+        width: 50%;
+    }
+
     /*--------------- About Us Page ---------------*/
 
     .contact-1, .contact-3 {
