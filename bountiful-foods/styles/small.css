@@ -117,9 +117,10 @@ hr {
     display: none;
 }
 
-/* .intro-section img {
-    width: 100%;
-} */
+.hero-container h1 {
+    font-size: 1.7rem;
+    text-align: center;
+}
 
 .intro-section p {
     margin: 50px 0 15px 0;
@@ -145,16 +146,13 @@ hr {
     text-align: center;
     display: block;
     background-color: #45AB5B;
-    /* height: 200px; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* padding: 50px 0 50px 0; */
 }
 
 .summary {
     border: 1px solid #000000;
     padding: 15px;
     background-color: #45AB5B;
+    /* height: 100%; */
 }
 
 .summary img {
@@ -190,7 +188,6 @@ hr {
 .fresh-main form input {
     padding: .65rem;
     border-radius: 10px;
-    /* background-color: #000000; */
 }
 
 .fresh-main select {

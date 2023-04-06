@@ -135,13 +135,13 @@
 
     .summary-box {
         border: 1px solid #000000;
-        /* padding: 8px; */
         border-radius: 10px;
         background-color: #35af50;
     }
 
     .summary {
         width: 300px;
+        height: 450px;
         text-align: justify;
         margin: 15px;
         border-radius: 10px;
