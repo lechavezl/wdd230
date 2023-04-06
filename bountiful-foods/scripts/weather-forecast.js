@@ -27,20 +27,20 @@ function showForecast(weatherData) {
     document.querySelector(".temp-day1").textContent = `${weatherData.list[1].main.temp.toFixed(0)} F°`;
     document.querySelector(".humidity-day1").textContent = `${weatherData.list[1].main.humidity}%`;
     document.querySelector(".icon-day1").src = `https://openweathermap.org/img/w/${weatherData.list[1].weather[0].icon}.png`;
-    const ConditionD1 = weatherData.list[1].weather[0].description;
-    document.querySelector(".desc-day1").textContent = ConditionD1.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+    const conditionD1 = weatherData.list[1].weather[0].description;
+    document.querySelector(".desc-day1").textContent = conditionD1.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 
     document.querySelector(".temp-day2").textContent = `${weatherData.list[2].main.temp.toFixed(0)} F°`;
     document.querySelector(".humidity-day2").textContent = `${weatherData.list[2].main.humidity}%`;
     document.querySelector(".icon-day2").src = `https://openweathermap.org/img/w/${weatherData.list[2].weather[0].icon}.png`;
-    const ConditionD2 = weatherData.list[2].weather[0].description;
-    document.querySelector(".desc-day2").textContent = ConditionD2.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+    const conditionD2 = weatherData.list[2].weather[0].description;
+    document.querySelector(".desc-day2").textContent = conditionD2.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 
     document.querySelector(".temp-day3").textContent = `${weatherData.list[3].main.temp.toFixed(0)} F°`;
     document.querySelector(".humidity-day3").textContent = `${weatherData.list[3].main.humidity}%`;
     document.querySelector(".icon-day3").src = `https://openweathermap.org/img/w/${weatherData.list[3].weather[0].icon}.png`;
-    const ConditionD3 = weatherData.list[3].weather[0].description;
-    document.querySelector(".desc-day3").textContent = ConditionD3.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+    const conditionD3 = weatherData.list[3].weather[0].description;
+    document.querySelector(".desc-day3").textContent = conditionD3.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 
 
 }
